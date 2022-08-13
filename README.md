@@ -1,1 +1,1 @@
-Proyecto de Página Web para una inmobiliaria.
+Proyecto de Página Web para Corredores inmobiliarios.
