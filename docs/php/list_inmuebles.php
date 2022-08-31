@@ -18,8 +18,8 @@
 		$nomimg="../gestion/assets/images/inmuebles/" . str_pad($idimg, 8, "0", STR_PAD_LEFT) . "." . $tpimg;
         
         if (!file_exists($nomimg)) { $nomimg="../gestion/assets/images/inmuebles/00000000.png"; }
-        if($inmuebles['habitacionesInmueble']>0){$habitacionesInmueble=$inmuebles['habitacionesInmueble'];}else{$habitacionesInmueble="-";};
-        if($inmuebles['banosInmueble']>0){$banosInmueble=$inmuebles['banosInmueble'];}else{$banosInmueble="-";};
+        if($inmuebles['habitacionesInmueble']>0){$habitacionesInmueble=$inmuebles['habitacionesInmueble'] . "<sup>+</sup>";}else{$habitacionesInmueble="-";};
+        if($inmuebles['banosInmueble']>0){$banosInmueble=$inmuebles['banosInmueble'];}else{$banosInmueble="&nbsp;-&nbsp;";};
         if($inmuebles['superficieCubiertaInmueble']>0){$superficieCubiertaInmueble=$inmuebles['superficieCubiertaInmueble'];}else{$superficieCubiertaInmueble="-";};
         if($inmuebles['valorInmueble']>0){$valorInmueble=$inmuebles['monedaInmueble'] . "</b>&nbsp;". $inmuebles['valorInmueble'];}else{$valorInmueble="Consultar";};;
 
@@ -32,14 +32,13 @@
                     $listado .= "<img src='" . $nomimg ."' alt='" . $idimg . "' class='img-fluid'>";
                 $listado .= "</a>";
                 $listado .= "<div class='p-4 property-body'>";
-                    $listado .= "<a href='#' class='property-favorite'><span class='icon-heart-o'></span></a>";
                     $listado .= "<h2 class='property-title'><a href='detalle-inmueble.php?idInmueble=" . $inmuebles['idInmueble'] ."'>" .  $inmuebles['tituloInmueble'] . "</a></h2>";
                     $listado .= "<span class='property-location d-block mb-3'><span class='property-icon icon-room'></span>" . $inmuebles['domicilioCalleInmueble'] . "</span>";
                     $listado .= "<strong class='property-price text-primary mb-3 d-block text-success'>" . $valorInmueble . "</strong>";
                     $listado .= "<ul class='property-specs-wrap mb-3 mb-lg-0'>";
                         $listado .= "<li>";
                             $listado .= "<span class=property-specs'>Habitaciones</span>";                            
-                            $listado .= "<span class='property-specs-number'>" . $habitacionesInmueble . "</span>";
+                            $listado .= "<span class='property-specs-number'><br>" . $habitacionesInmueble . " </span>";
                         $listado .= "</li>";
                         $listado .= "<li>";
                             $listado .= "<span class='property-specs'>Baños</span>";
