@@ -44,12 +44,19 @@
       <div class="site-mobile-menu-body"></div>
     </div> <!-- .site-mobile-menu -->
 
-    <div class="site-navbar mt-4">
+    <div class="site-navbar mt-8">
       <div class="container py-1">
         <div class="row align-items-center">
           <div class="col-8 col-md-8 col-lg-4">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0"><strong>Enlace Inmobiliario<span class="text-danger">.</span></strong></a></h1>
+           <a href="">
+              <img src="images/logo.png" width="200" height=""/>
+           </a>  
+            
+            
+          
+            <!-- <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0"><strong>Enlace Inmobiliario<span class="text-danger">.</span></strong></a></h1> -->
           </div>
+        
           <div class="col-4 col-md-4 col-lg-8">
             <nav class="site-navigation text-right text-md-right" role="navigation">
 
@@ -59,8 +66,8 @@
                 <li class="active">
                   <a href="index.html">Inicio</a>
                 </li>
-                <li><a href="#">Ventas</a></li>
-                <li><a href="#">Alquileres</a></li>
+                <!-- <li><a href="buy.html">Ventas</a></li>
+                <li><a href="rent.html">Alquileres</a></li>
                 <li class="has-children">
                   <a href="properties.html">Propiedades</a>
                   <ul class="dropdown arrow-top">
@@ -72,12 +79,13 @@
                     <li><a href="#">Lotes</a></li>
                     <li><a href="#">Des. Inmobiliario</a></li>
                   </ul>
-                </li>
+                </li> -->
                 <li><a href="servicios.html">Servicios</a></li> 
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
               </ul>
             </nav>
           </div>
+        
         </div>
       </div>
     </div>
@@ -142,12 +150,24 @@
                   <strong class="d-block">Casa</strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
-                  <span class="d-inline-block text-black mb-0 caption-text">Año de construcción</span>
-                  <strong class="d-block">-</strong>
+                  <span class="d-inline-block text-black mb-0 caption-text">Zona</span>
+                  <strong class="d-block">Capital</strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
-                  <span class="d-inline-block text-black mb-0 caption-text">Superficie</span>
-                  <strong class="d-block">-</strong>
+                  <span class="d-inline-block text-black mb-0 caption-text">Operación</span>
+                  <strong class="d-block">Alquiler</strong>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
+                  <span class="d-inline-block text-black mb-0 caption-text">Sup. Cubierta</span>
+                  <strong class="d-block">65 m2</strong>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
+                  <span class="d-inline-block text-black mb-0 caption-text">Sup. Total</span>
+                  <strong class="d-block">311 m2</strong>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
+                  <span class="d-inline-block text-black mb-0 caption-text">Info adicional</span>
+                  <strong class="d-block">No se aceptan mascotas ni niños pequeños</strong>
                 </div>
               </div>
               <h2 class="h4 text-black">Descripción</h2>
@@ -211,7 +231,13 @@
                 </div>
                 <div class="form-group">
                   <label for="phone">Teléfono</label>
-                  <input type="text" id="phone" class="form-control">
+                  <input type="number" id="phone" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea name="comentario" rows="5" cols="30" class="form-control"></textarea>
+
+
                 </div>
                 <div class="form-group">
                   <input type="submit" id="phone" class="btn btn-primary" value="Enviar Mensaje">
