@@ -21,8 +21,7 @@
     <link rel="stylesheet" href="css/mediaelementplayer.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/fl-bigmug-line.css">
-    
+    <link rel="stylesheet" href="css/fl-bigmug-line.css">    
   
     <link rel="stylesheet" href="css/aos.css">
 
@@ -55,10 +54,7 @@
            <a href="">
               <img src="images/logo.png" width="200" height=""/>
            </a>  
-            
-            
-          
-            <!-- <h1 class="mb-0"><a href="index.php" class="text-white h2 mb-0"><strong>Enlace Inmobiliario<span class="text-danger">.</span></strong></a></h1> -->
+
           </div>
           <div class="col-4 col-md-4 col-lg-8">
             <nav class="site-navigation text-right text-md-right" role="navigation">
@@ -69,20 +65,6 @@
                 <li class="active">
                   <a href="index.php">Inicio</a>
                 </li>
-                <!-- <li><a href="buy.html">Ventas</a></li>
-                <li><a href="rent.html">Alquileres</a></li>
-                <li class="has-children">
-                  <a href="properties.html">Propiedades</a>
-                  <ul class="dropdown arrow-top">
-                    <li><a href="#">Casas</a></li>
-                    <li><a href="#">Departamentos</a></li>
-                    <li><a href="#">Cocheras</a></li>
-                    <li><a href="#">Fincas</a></li>
-                    <li><a href="#">Salones</a></li>
-                    <li><a href="#">Lotes</a></li>
-                    <li><a href="#">Des. Inmobiliario</a></li>
-                  </ul>
-                </li> -->
                 <li><a href="servicios.html">Servicios</a></li> 
                 <li><a href="contacto.html">Contacto</a></li>
               </ul>
@@ -93,51 +75,10 @@
     </div>
   </div>
 
-    <!-- <div class="slide-one-item home-slider owl-carousel">
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span>
-              <h1 class="mb-2">Saavedra 293 Norte</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">USD 100.000</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p>
-            </div>
-          </div>
-        </div>
-      </div>  
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">sala Zexar</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">USD $50.000</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p>
-            </div>
-          </div>
-        </div>
-      </div>  
-
-    </div> -->
-<div style="background-color: rgba(51,50,50,255)
-">
-  <br> &nbsp; <br>
-  <br> &nbsp; <br>
-  
-</div>
-
-    <!-- <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/sanjuan-civico4.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
-      <div class="container">
-        <div class="row align-items-center justify-content-center text-center">
-          <div class="col-md-10">
-            <h1 class="mb-2">Propiedades</h1>
-          </div>
-        </div>
-      </div>
-    </div> -->
+    <div style="background-color: rgba(51,50,50,255)">
+      <br> &nbsp; <br>
+      <br> &nbsp; <br>  
+    </div>
 
     <div class="site-section site-section-sm pb-0">
       <div class="container">
