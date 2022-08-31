@@ -1,5 +1,5 @@
 <?PHP
-    include('fn/list_opciones.php');
+    include('php/list_opciones.php');
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -56,7 +56,7 @@
               
               
             
-              <!-- <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0"><strong>Enlace Inmobiliario<span class="text-danger">.</span></strong></a></h1> -->
+              <!-- <h1 class="mb-0"><a href="index.php" class="text-white h2 mb-0"><strong>Enlace Inmobiliario<span class="text-danger">.</span></strong></a></h1> -->
             </div>
           
             <div class="col-4 col-md-4 col-lg-8">
@@ -66,7 +66,7 @@
 
                 <ul class="site-menu js-clone-nav d-none d-lg-block">
                   <li class="active">
-                    <a href="index.html">Inicio</a>
+                    <a href="index.php">Inicio</a>
                   </li>
                   <!-- <li><a href="buy.html">Ventas</a></li>
                   <li><a href="rent.html">Alquileres</a></li>
@@ -126,7 +126,7 @@
     <div class="site-section site-section-sm pb-0">
       <div class="container">
         <div class="row">
-          <form class="form-search col-md-12" style="margin-top: -100px;">
+          <form class="form-search col-md-12" style="margin-top: -100px;" action="lista-inmuebles.php">
             <div class="row  align-items-end">
               <div class="col-md-3">
                 <label for="list-types">Propiedad</label>
@@ -178,27 +178,27 @@
           <div class="col-md-12">
             <div class="view-options bg-white py-3 px-3 d-md-flex align-items-center">
               <!-- <div class="mr-auto">
-                <a href="index.html" class="icon-view view-module active"><span class="icon-view_module"></span></a>
+                <a href="index.php" class="icon-view view-module active"><span class="icon-view_module"></span></a>
                 <a href="view-list.html" class="icon-view view-list"><span class="icon-view_list"></span></a>         
               </div> -->
               
-              <div class="ml-auto d-flex align-items-center">
-                <!-- <div>
+              <!--div class="ml-auto d-flex align-items-center">
+                < <div>
                   <a href="#" class="view-list px-3 border-right active">Todos</a>
                   <a href="#" class="view-list px-3 border-right">Alquiler</a>
                   <a href="#" class="view-list px-3">Venta</a>
                 </div> -->
 
 
-                <div class="select-wrap">
+                <!--div-- class="select-wrap">
                   <span class="icon icon-arrow_drop_down"></span>
                   <select class="form-control form-control-sm d-block rounded-0">
                     <option value="">Ordenar por</option>
                     <option value="">Precio Ascendente</option>
                     <option value="">Precio Descendente</option>
                   </select>
-                </div>
-              </div>
+                </!--div>
+              </div-->
             </div>
           </div>
         </div>
@@ -734,7 +734,7 @@
               </div>
               <div class="col-md-6 col-lg-6">
                 <ul class="list-unstyled">
-                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="index.php">Inicio</a></li>
                   <!-- <li><a href="buy.html">Ventas</a></li>
                   <li><a href="rent.html">Alquileres</a></li>
                   <li><a href="properties.html">Propiedades</a></li> -->
