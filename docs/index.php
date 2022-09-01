@@ -118,10 +118,10 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span>
-              <h1 class="mb-2">Casa 1 dormitorio en Complejo Cerrado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">$ 25.000</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <!-- <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span> -->
+              <h1 class="mb-2">Profesionalismo</h1>
+              <!-- <p class="mb-5"><strong class="h2 text-success font-weight-bold">$ 25.000</strong></p> -->
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
             </div>
           </div>
         </div>
@@ -131,10 +131,10 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span>
-              <h1 class="mb-2">Casa 1 dormitorio en Complejo Cerrado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">$ 25.000</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <!-- <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span> -->
+              <h1 class="mb-2">Calidez</h1>
+              <!-- <p class="mb-5"><strong class="h2 text-success font-weight-bold">$ 25.000</strong></p> -->
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
             </div>
           </div>
         </div>
@@ -144,10 +144,10 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span>
-              <h1 class="mb-2">Casa 1 dormitorio en Complejo Cerrado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">$ 25.000</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <!-- <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span> -->
+              <h1 class="mb-2">Confianza</h1>
+              <!-- <p class="mb-5"><strong class="h2 text-success font-weight-bold">$ 25.000</strong></p> -->
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
             </div>
           </div>
         </div>
@@ -157,10 +157,10 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span>
-              <h1 class="mb-2">Casa 1 dormitorio en Complejo Cerrado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">$ 25.000</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <!-- <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span> -->
+              <h1 class="mb-2">Seriedad</h1>
+              <!-- <p class="mb-5"><strong class="h2 text-success font-weight-bold">$ 25.000</strong></p> -->
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
             </div>
           </div>
         </div>
@@ -170,10 +170,10 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span> -->
+              <h1 class="mb-2">Compromiso</h1>
+              <!-- <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p> -->
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
             </div>
           </div>
         </div>
@@ -183,10 +183,10 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span> -->
+              <h1 class="mb-2">Distinción</h1>
+              <!-- <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p> -->
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
             </div>
           </div>
         </div>
@@ -196,10 +196,10 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span> -->
+              <h1 class="mb-2">Eficiencia</h1>
+              <!-- <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p> -->
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
             </div>
           </div>
         </div>
@@ -209,10 +209,10 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span> -->
+              <h1 class="mb-2">Cooperación</h1>
+              <!-- <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p> -->
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
             </div>
           </div>
         </div>
@@ -222,10 +222,10 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span> -->
+              <h1 class="mb-2">Personalización</h1>
+              <!-- <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p> -->
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
             </div>
           </div>
         </div>
@@ -235,10 +235,10 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span> -->
+              <h1 class="mb-2">Claridad</h1>
+              <!-- <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p> -->
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
             </div>
           </div>
         </div>
@@ -248,10 +248,10 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span> -->
+              <h1 class="mb-2">Capacidad</h1>
+              <!-- <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p> -->
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
             </div>
           </div>
         </div>
@@ -261,10 +261,10 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span> -->
+              <h1 class="mb-2">Excelencia</h1>
+              <!-- <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p> -->
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
             </div>
           </div>
         </div>
