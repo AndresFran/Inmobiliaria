@@ -2,9 +2,15 @@
     include('conexion.php');
     //Filtros   
     
-    $queryinmuebles = "SELECT * FROM vista_inmuebles WHERE baja != '1' ORDER BY fecha DESC";
-    $rtsinmuebles = mysqli_query($conexion, $queryinmuebles);
 
+
+   // if (isset($_REQUEST['list-types'])) { $atop = 0;}else{ $atop = $_REQUEST['list-types'];}
+   // if (isset($_REQUEST['offer-types'])) { $atop = 0;}else{ $atop = $_REQUEST['offer-types'];}
+   // if (isset($_REQUEST['select-city'])) { $atop = 0;}else{ $atop = $_REQUEST['select-city'];}
+
+    $queryinmuebles = "SELECT * FROM vista_inmuebles WHERE baja != '1' ORDER BY fecha DESC";
+
+    $rtsinmuebles = mysqli_query($conexion, $queryinmuebles);
 
     $listado = "<div class='row mb-5'>";
     
