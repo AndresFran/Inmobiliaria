@@ -4,9 +4,13 @@
     
 
 
-   // if (isset($_REQUEST['list-types'])) { $atop = 0;}else{ $atop = $_REQUEST['list-types'];}
-   // if (isset($_REQUEST['offer-types'])) { $atop = 0;}else{ $atop = $_REQUEST['offer-types'];}
-   // if (isset($_REQUEST['select-city'])) { $atop = 0;}else{ $atop = $_REQUEST['select-city'];}
+    if (isset($_REQUEST['list-types']))  { $propiedad = "";}else{ $propiedad = $_REQUEST['list-types'];}
+    if (isset($_REQUEST['offer-types'])) { $operacion = "";}else{ $operacion = $_REQUEST['offer-types'];}
+    if (isset($_REQUEST['select-city'])) { $localidad = "";}else{ $localidad = $_REQUEST['select-city'];}
+
+    echo "Propiedad: " . $propiedad . "<br>";
+    echo "Operacion: " . $operacion . "<br>";
+    echo "Localidad: " . $localidad . "<br>";
 
     $queryinmuebles = "SELECT * FROM vista_inmuebles WHERE baja != '1' ORDER BY fecha DESC";
 
