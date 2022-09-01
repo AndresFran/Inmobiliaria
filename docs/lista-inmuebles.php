@@ -83,7 +83,7 @@
     <div class="site-section site-section-sm pb-0">
       <div class="container">
         <div class="row">
-          <form class="form-search col-md-12" style="margin-top: -100px;" action="lista-inmuebles.php">
+          <form class="form-search col-md-12" style="margin-top: -100px;" action="lista-inmuebles.php" method="POST" >
             <div class="row  align-items-end">
               <div class="col-md-3">
                 <label for="list-types">Propiedad</label>
@@ -91,8 +91,7 @@
                   <span class="icon icon-arrow_drop_down"></span>
                   <select name="propiedad" id="propiedad" class="form-control d-block rounded-0">
                     <option value="">Todas las propiedades</option>
-                    <option value="">Propiedad</option>
-                    <?PHP while($propiedad=mysqli_fetch_assoc($rtspropiedad)){?>
+                      <?PHP while($propiedad=mysqli_fetch_assoc($rtspropiedad)){?>
                     <option value="<?PHP echo $propiedad['idPropiedad']; ?>"> <?PHP echo $propiedad['nombrePropiedad'];?></option>
                     <?PHP } ?> 
                   </select>
