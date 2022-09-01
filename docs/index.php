@@ -396,123 +396,80 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="site-section bg-light">
+    
+    <!--div class="site-section bg-light">
       <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center">
-            <div class="site-section-title">
-              <h2>Blog</h2>
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7">
+            <div class="site-section-title text-center">
+              <h2>Nuestros Agentes</h2>
+              <p>Este gran grupo de trabajo se esforzará en que cumplas tus sueños. Conocelos y preguntale lo que desees conocer.</p>
             </div>
-            <p>Aquí encontrarás los mejores artículos sobre el mercado inmobiliario local. Enterate de lo último.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
-            <a href="#"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
-            <div class="p-4 bg-white">
-              <span class="d-block text-secondary small text-uppercase">9 de Octubre de 2022</span>
-              <h2 class="h5 text-black mb-3"><a href="#">¿Es legal hacer ruido con la batería?, por Mario César de los Ríos</a></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias enim, ipsa exercitationem veniam quae sunt.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
-            <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-            <div class="p-4 bg-white">
-              <span class="d-block text-secondary small text-uppercase">10 de Octubre de 2022</span>
-              <h2 class="h5 text-black mb-3"><a href="#">Cómo destruir una casa, por Facundo Baleriano</a></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias enim, ipsa exercitationem veniam quae sunt.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="300">
-            <a href="#"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
-            <div class="p-4 bg-white">
-              <span class="d-block text-secondary small text-uppercase">11 de Octubre de 2022</span>
-              <h2 class="h5 text-black mb-3"><a href="#">No permitas una fiesta de Heavy Metal en tu vecindario, por Andrés Garay</a></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias enim, ipsa exercitationem veniam quae sunt.</p>
-            </div>
-          </div>
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
+              <div class="team-member">
 
-        </div>
+                <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded mb-4">
 
+                <div class="text">
+
+                  <h2 class="mb-2 font-weight-light text-black h4">Esteban Costela</h2>
+                  <span class="d-block mb-3 text-white-opacity-05">Martillero y Corredor Inmobiliario<br>Matrícula Nº 166</span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est. Totam atque corporis nisi, veniam non. Tempore cupiditate, vitae minus obcaecati provident beatae!</p>
+                  <p>
+                    <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a>
+                    <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a>
+                    <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
+              <div class="team-member">
+
+                <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded mb-4">
+
+                <div class="text">
+
+                  <h2 class="mb-2 font-weight-light text-black h4">Javier Blanco</h2>
+                  <span class="d-block mb-3 text-white-opacity-05">Corredor Inmobiliario<br>Matrícula Nº 137</span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cumque vitae voluptates culpa earum similique corrupti itaque veniam doloribus amet perspiciatis recusandae sequi nihil tenetur ad, modi quos id magni!</p>
+                  <p>
+                    <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a>
+                    <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a>
+                    <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
+              <div class="team-member">
+
+                <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded mb-4">
+
+                <div class="text">
+
+                  <h2 class="mb-2 font-weight-light text-black h4">Pablo Domínguez</h2>
+                  <span class="d-block mb-3 text-white-opacity-05">Corredor Inmobiliario<br>Matrícula Nº 122</span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores illo iusto, inventore, iure dolorum officiis modi repellat nobis, praesentium perspiciatis, explicabo. Atque cupiditate, voluptates pariatur odit officia libero veniam quo.</p>
+                  <p>
+                    <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a>
+                    <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a>
+                    <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div> 
       </div>
-    </div> -->
-
-    
-    <!-- <div class="site-section bg-light">
-    <div class="container">
-      <div class="row mb-5 justify-content-center">
-        <div class="col-md-7">
-          <div class="site-section-title text-center">
-            <h2>Nuestros Agentes</h2>
-            <p>Este gran grupo de trabajo se esforzará en que cumplas tus sueños. Conocelos y preguntale lo que desees conocer.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded mb-4">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light text-black h4">Esteban Costela</h2>
-                <span class="d-block mb-3 text-white-opacity-05">Martillero y Corredor Inmobiliario<br>Matrícula Nº 166</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est. Totam atque corporis nisi, veniam non. Tempore cupiditate, vitae minus obcaecati provident beatae!</p>
-                <p>
-                  <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded mb-4">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light text-black h4">Javier Blanco</h2>
-                <span class="d-block mb-3 text-white-opacity-05">Corredor Inmobiliario<br>Matrícula Nº 137</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cumque vitae voluptates culpa earum similique corrupti itaque veniam doloribus amet perspiciatis recusandae sequi nihil tenetur ad, modi quos id magni!</p>
-                <p>
-                  <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded mb-4">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light text-black h4">Pablo Domínguez</h2>
-                <span class="d-block mb-3 text-white-opacity-05">Corredor Inmobiliario<br>Matrícula Nº 122</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores illo iusto, inventore, iure dolorum officiis modi repellat nobis, praesentium perspiciatis, explicabo. Atque cupiditate, voluptates pariatur odit officia libero veniam quo.</p>
-                <p>
-                  <a href="#" class="text-black p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-black p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-black p-2"><span class="icon-linkedin"></span></a>
-                </p>
-              </div>
-
-            </div>
-          </div>
-        </div> -->
-    </div>
-    </div>
-    
+    </!--div-->    
 
     <footer class="site-footer">
       <div class="container">
@@ -522,8 +479,6 @@
               <h3 class="footer-heading mb-4">Acerca de Enlace Inmobiliario</h3>
               <p>Este portal nace con la necesidad imperiosa de ordenar y ejecutar trabajos coordinados entre Profesionales Corredores Inmobiliarios debidamente Matriculados en la Provincia de San Juan.</p>
             </div>
-
-            
             
           </div>
           <div class="col-lg-4 mb-5 mb-lg-0">
@@ -534,27 +489,22 @@
               <div class="col-md-6 col-lg-6">
                 <ul class="list-unstyled">
                   <li><a href="index.php">Inicio</a></li>
-                  <!-- <li><a href="buy.html">Ventas</a></li>
-                  <li><a href="rent.html">Alquileres</a></li>
-                  <li><a href="properties.html">Propiedades</a></li> -->
                   <li><a href="servicios.html">Servicios</a></li>
                   <li><a href="contacto.html">Contacto</a></li>
+                  <li><a href="gestion/">Gestion</a></li>
                 </ul>
               </div>
               <div class="col-md-6 col-lg-6">
                 <ul class="list-unstyled">
-                  <!-- <li><a href="servicios.html">Servicios</a></li>
-                  <li><a href="contact.html">Contacto</a></li> -->
                   <li><a href="#">Política de privacidad</a></li>
                   <li><a href="terminos.html">Términos y Condiciones</a></li>
                 </ul>
               </div>
             </div>
 
-
           </div>
-
-          <div class="col-lg-4 mb-5 mb-lg-0">
+                      
+          <!--div class="col-lg-4 mb-5 mb-lg-0">
             <h3 class="footer-heading mb-4">Seguinos en las Redes</h3>
 
                 <div>
@@ -563,10 +513,7 @@
                   <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
                   <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
                 </div>
-
-            
-
-          </div>
+          </div-->
           
         </div>
         <div class="row pt-5 mt-5 text-center">

@@ -209,9 +209,6 @@
               <div class="col-md-6 col-lg-6">
                 <ul class="list-unstyled">
                   <li><a href="index.php">Inicio</a></li>
-                  <!-- <li><a href="buy.html">Ventas</a></li>
-                  <li><a href="rent.html">Alquileres</a></li>
-                  <li><a href="properties.html">Propiedades</a></li> -->
                   <li><a href="servicios.html">Servicios</a></li>
                   <li><a href="contacto.html">Contacto</a></li>
                 </ul>
@@ -225,11 +222,10 @@
                 </ul>
               </div>
             </div>
-
-
+            
           </div>
 
-          <div class="col-lg-4 mb-5 mb-lg-0">
+          <!--div class="col-lg-4 mb-5 mb-lg-0">
             <h3 class="footer-heading mb-4">Seguinos en las Redes</h3>
 
                 <div>
@@ -238,10 +234,7 @@
                   <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
                   <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
                 </div>
-
-            
-
-          </div>
+          </div-->
           
         </div>
         <div class="row pt-5 mt-5 text-center">
@@ -258,9 +251,6 @@
     </footer>
 
   </div>
-
-
-
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
