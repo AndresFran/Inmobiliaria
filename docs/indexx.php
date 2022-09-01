@@ -94,196 +94,48 @@
     </div>
 
     <div class="slide-one-item home-slider owl-carousel">
-      <!-- <video
-        class="bg-video"
-        playsinline="playsinline"
-        autoplay="autoplay"
-        muted="muted"
-        loop="loop"
-        position="fixed";
-        width="auto";
-        height="auto";
-        top="50%"
-        left="50%"
-        transform="translateX(-50%) translateY(-50%)";
-        z-index="0";
-      >
-        <source src="images/enlace3.mp4" type="video/mp4" />
-      </video> -->
 
-
-
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/lista8.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="site-blocks-cover overlay" style="background-image: url(images/fotos/costela/casa-1dorm-complejo-capital/1.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span>
+              <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span>
               <h1 class="mb-2">Casa 1 dormitorio en Complejo Cerrado</h1>
               <p class="mb-5"><strong class="h2 text-success font-weight-bold">$ 25.000</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p>
             </div>
           </div>
         </div>
       </div>  
 
-      <div class="site-blocks-cover overlay" style="background-image: url(images/lista1.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="site-blocks-cover overlay" style="background-image: url(images/fotos/costela/casa-1.categoria-b.privado-rawson/1.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span>
-              <h1 class="mb-2">Casa 1 dormitorio en Complejo Cerrado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">$ 25.000</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
+              <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
+              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
+              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
+              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p>
             </div>
           </div>
         </div>
       </div>  
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/lista2.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span>
-              <h1 class="mb-2">Casa 1 dormitorio en Complejo Cerrado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">$ 25.000</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
-            </div>
-          </div>
-        </div>
-      </div>  
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/lista6.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-success text-white px-3 mb-3 property-offer-type rounded">Alquiler destacado</span>
-              <h1 class="mb-2">Casa 1 dormitorio en Complejo Cerrado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">$ 25.000</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
-            </div>
-          </div>
-        </div>
-      </div>  
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/lista3.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
-            </div>
-          </div>
-        </div>
-      </div>  
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/lista4.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/lista5.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/lista7.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/lista9.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/lista10.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/lista11.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/lista12.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <!-- <span class="d-inline-block bg-danger text-white px-3 mb-3 property-offer-type rounded">En venta destacado</span>
-              <h1 class="mb-2">Casa Primera Categoría Bº Privado</h1>
-              <p class="mb-5"><strong class="h2 text-success font-weight-bold">Consultar</strong></p>
-              <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 btn-2">Ver detalles</a></p> -->
-            </div>
-          </div>
-        </div>
-      </div>
 
     </div>
 
     <div class="site-section site-section-sm pb-0">
       <div class="container">
         <div class="row">
-          <form class="form-search col-md-12" style="margin-top: -100px;" action="lista-inmuebles.php" method="POST" >
+          <form class="form-search col-md-12" style="margin-top: -100px;" action="lista-inmuebles.php">
             <div class="row  align-items-end">
               <div class="col-md-3">
                 <label for="list-types">Propiedad</label>
                 <div class="select-wrap">
                   <span class="icon icon-arrow_drop_down"></span>
-                  <select name="propiedad" id="propiedad" class="form-control d-block rounded-0">
+                  <select name="list-types" id="list-types" class="form-control d-block rounded-0">
                     <option value="">Todas las propiedades</option>
-                      <?PHP while($propiedad=mysqli_fetch_assoc($rtspropiedad)){?>
+                    <option value="">Propiedad</option>
+                    <?PHP while($propiedad=mysqli_fetch_assoc($rtspropiedad)){?>
                     <option value="<?PHP echo $propiedad['idPropiedad']; ?>"> <?PHP echo $propiedad['nombrePropiedad'];?></option>
                     <?PHP } ?> 
                   </select>
@@ -293,7 +145,7 @@
                 <label for="offer-types">Operación</label>
                 <div class="select-wrap">
                   <span class="icon icon-arrow_drop_down"></span>
-                  <select name="operacion" id="operacion" class="form-control d-block rounded-0">
+                  <select name="offer-types" id="offer-types" class="form-control d-block rounded-0">
                     <option value="">Todas las operaciones</option>
                     <?PHP while($operacion=mysqli_fetch_assoc($rtsoperacion)){?>
                     <option value="<?PHP echo $operacion['idOperacion']; ?>"> <?PHP echo $operacion['nombreOperacion'];?></option>
@@ -305,7 +157,7 @@
                 <label for="select-city">Localidad</label>
                 <div class="select-wrap">
                   <span class="icon icon-arrow_drop_down"></span>
-                  <select name="localidad" id="localidad" class="form-control d-block rounded-0">
+                  <select name="select-city" id="select-city" class="form-control d-block rounded-0">
                     <option value="">Todas las localidades</option>
                     <option value="">Localidad</option>
                     <?PHP while($localidad=mysqli_fetch_assoc($rtslocalidad)){?>
@@ -330,8 +182,8 @@
                 <a href="view-list.html" class="icon-view view-list"><span class="icon-view_list"></span></a>         
               </div> -->
               
-              <div class="ml-auto d-flex align-items-center">
-                <!-- <div>
+              <!--div class="ml-auto d-flex align-items-center">
+                < <div>
                   <a href="#" class="view-list px-3 border-right active">Todos</a>
                   <a href="#" class="view-list px-3 border-right">Alquiler</a>
                   <a href="#" class="view-list px-3">Venta</a>
@@ -345,12 +197,361 @@
                     <option value="">Precio Ascendente</option>
                     <option value="">Precio Descendente</option>
                   </select>
-                </!--div-->
-              </div>
+                </!--div>
+              </div-->
             </div>
           </div>
         </div>
        
+      </div>
+    </div>
+
+    <div class="site-section site-section-sm bg-light">
+      <div class="container">
+      
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="property-entry h-100">
+              <a href="property-details.html" class="property-thumbnail">
+                <div class="offer-type-wrap">
+                  <!-- <span class="offer-type bg-danger">Venta</span> -->
+                  <span class="offer-type bg-success">Alquiler</span>
+                </div>
+                <img src="images/fotos/costela/casa-natania7-rawson/1.jpeg" alt="Image" class="img-fluid">
+              </a>
+              <div class="p-4 property-body">
+                <a href="#" class="property-favorite"><span class="icon-heart-o"></span></a>
+                <h2 class="property-title"><a href="property-details.html">Casa Bº Natania VII</a></h2>
+                <span class="property-location d-block mb-3"><span class="property-icon icon-room"></span> Barrio Natania VII, sobre Lateral de Ruta 40 - Rawson</span>
+                <strong class="property-price text-primary mb-3 d-block text-success">Consultar</strong>
+                <ul class="property-specs-wrap mb-3 mb-lg-0">
+                  <li>
+                    <span class="property-specs">Habitaciones</span>
+                    <span class="property-specs-number">3 <sup>+</sup></span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Baños</span>
+                    <span class="property-specs-number">2</span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Superficie</span>
+                    <span class="property-specs-number">-</span>
+                    
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="property-entry h-100">
+              <a href="property-details.html" class="property-thumbnail">
+                <div class="offer-type-wrap">
+                  <span class="offer-type bg-info">Venta</span>
+                  <!-- <span class="offer-type bg-success">Alquiler</span> -->
+                </div>
+                <img src="images/fotos/costela/terreno-375m2-slucia/1.png" alt="Image" class="img-fluid">
+              </a>
+              <div class="p-4 property-body">
+                <a href="#" class="property-favorite active"><span class="icon-heart-o"></span></a>
+                <h2 class="property-title"><a href="property-details.html">Terreno de 375 m2</a></h2>
+                <span class="property-location d-block mb-3"><span class="property-icon icon-room"></span> Calle Balcarce, 1000 m. al Norte de Roque Sáenz Peña - Santa Lucía</span>
+                <strong class="property-price text-primary mb-3 d-block text-success">$1.350.000</strong>
+                <ul class="property-specs-wrap mb-3 mb-lg-0">
+                  <li>
+                    <span class="property-specs">Habitaciones</span>
+                    <span class="property-specs-number">- <sup></sup></span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Baños</span>
+                    <span class="property-specs-number">-</span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Superficie</span>
+                    <span class="property-specs-number">375 m2</span>
+                    
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="property-entry h-100">
+              <a href="property-details.html" class="property-thumbnail">
+                <div class="offer-type-wrap">
+                  <span class="offer-type bg-success">Alquiler</span>
+                  <span class="offer-type bg-danger">Alquilado</span>
+                </div>
+                <img src="images/fotos/costela/casa-pj-pueyrredon-capital/1.jpeg" alt="Image" class="img-fluid">
+              </a>
+              <div class="p-4 property-body">
+                <a href="#" class="property-favorite"><span class="icon-heart-o"></span></a>
+                <h2 class="property-title"><a href="property-details.html">Casa Pasaje Pueyrredón</a></h2>
+                <span class="property-location d-block mb-3"><span class="property-icon icon-room"></span> Pasaje sobre Calle Hipólito Irigoyen - Capital
+              </span>
+                <strong class="property-price text-primary mb-3 d-block text-success">Consultar</strong>
+                <ul class="property-specs-wrap mb-3 mb-lg-0">
+                  <li>
+                    <span class="property-specs">Habitaciones</span>
+                    <span class="property-specs-number">3 <sup>+</sup></span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Baños</span>
+                    <span class="property-specs-number">2</span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Superficie</span>
+                    <span class="property-specs-number">-</span>
+                    
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="property-entry h-100">
+              <a href="property-details.html" class="property-thumbnail">
+                <div class="offer-type-wrap">
+                  <!-- <span class="offer-type bg-danger">Sale</span> -->
+                  <span class="offer-type bg-success">Alquiler</span>
+                  <span class="offer-type bg-danger">Alquilado</span>
+                </div>
+                <img src="images/fotos/costela/salon-mendoza-chimbas/1.jpeg" alt="Image" class="img-fluid">
+              </a>
+              <div class="p-4 property-body">
+                <a href="#" class="property-favorite"><span class="icon-heart-o"></span></a>
+                <h2 class="property-title"><a href="property-details.html">Salones Calle Mendoza</a></h2>
+                <span class="property-location d-block mb-3"><span class="property-icon icon-room"></span> Calle Mendoza, entre Rodríguez y Centenario - Chimbas</span>
+                <strong class="property-price text-primary mb-3 d-block text-success">Consultar</strong>
+                <ul class="property-specs-wrap mb-3 mb-lg-0">
+                  <li>
+                    <span class="property-specs">Habitaciones</span>
+                    <span class="property-specs-number">- <sup></sup></span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Baños</span>
+                    <span class="property-specs-number">1</span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Superficie</span>
+                    <span class="property-specs-number">44 m2</span>
+                    
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="property-entry h-100">
+              <a href="property-details.html" class="property-thumbnail">
+                <div class="offer-type-wrap">
+                  <!-- <span class="offer-type bg-danger">Sale</span> -->
+                  <span class="offer-type bg-success">Alquiler</span>
+                </div>
+                <img src="images/fotos/costela/casa-1dorm-complejo-capital/1.jpeg" alt="Image" class="img-fluid">
+              </a>
+              <div class="p-4 property-body">
+                <a href="#" class="property-favorite"><span class="icon-heart-o"></span></a>
+                <h2 class="property-title"><a href="property-details.html">Casa 1 dormitorio en Complejo Privado</a></h2>
+                <span class="property-location d-block mb-3"><span class="property-icon icon-room"></span> Calle Uruguay, Villa América - Capital</span>
+                <strong class="property-price text-primary mb-3 d-block text-success">$25.000</strong>
+                <ul class="property-specs-wrap mb-3 mb-lg-0">
+                  <li>
+                    <span class="property-specs">Habitaciones</span>
+                    <span class="property-specs-number">1 <sup>+</sup></span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Baños</span>
+                    <span class="property-specs-number">1</span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Superficie</span>
+                    <span class="property-specs-number">-</span>
+                    
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="property-entry h-100">
+              <a href="property-details.html" class="property-thumbnail">
+                <div class="offer-type-wrap">
+                  <!-- <span class="offer-type bg-info">Lease</span> -->
+                  <span class="offer-type bg-info">Venta</span>
+                </div>
+                <img src="images/fotos/costela/depto-3dorm-c.civico-capital/2.jpeg" alt="Image" class="img-fluid">
+              </a>
+              <div class="p-4 property-body">
+                <a href="#" class="property-favorite"><span class="icon-heart-o"></span></a>
+                <h2 class="property-title"><a href="property-details.html">Departamento 3 dormitorios a metros del Centro Cívico
+                </a></h2>
+                <span class="property-location d-block mb-3"><span class="property-icon icon-room"></span> Calle Rivadavia 631 Oeste - Capital</span>
+                <strong class="property-price text-primary mb-3 d-block text-success">USD 62.000</strong>
+                <ul class="property-specs-wrap mb-3 mb-lg-0">
+                  <li>
+                    <span class="property-specs">Habitaciones</span>
+                    <span class="property-specs-number">3 <sup>+</sup></span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Baños</span>
+                    <span class="property-specs-number">1</span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Superficie</span>
+                    <span class="property-specs-number">-</span>
+                    
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="property-entry h-100">
+              <a href="property-details.html" class="property-thumbnail">
+                <div class="offer-type-wrap">
+                  <span class="offer-type bg-info">Venta</span>
+                  <!-- <span class="offer-type bg-success">Rent</span> -->
+                </div>
+                <img src="images/fotos/costela/constructora-obra.gruesa-30-dias/1.jpeg" alt="Image" class="img-fluid">
+              </a>
+              <div class="p-4 property-body">
+                <a href="#" class="property-favorite"><span class="icon-heart-o"></span></a>
+                <h2 class="property-title"><a href="property-details.html">Casa obra gruesa en 30 días</a></h2>
+                <span class="property-location d-block mb-3"><span class="property-icon icon-room"></span> En toda la Provincia de San Juan</span>
+                <strong class="property-price text-primary mb-3 d-block text-success">Consultar</strong>
+                <ul class="property-specs-wrap mb-3 mb-lg-0">
+                  <li>
+                    <span class="property-specs">Habitaciones</span>
+                    <span class="property-specs-number">- <sup></sup></span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Baños</span>
+                    <span class="property-specs-number">-</span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Superficie</span>
+                    <span class="property-specs-number">-</span>
+                    
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="property-entry h-100">
+              <a href="property-details.html" class="property-thumbnail">
+                <div class="offer-type-wrap">
+                  <!-- <span class="offer-type bg-danger">Sale</span> -->
+                  <span class="offer-type bg-success">Alquiler</span>
+                  <span class="offer-type bg-danger">Alquilado</span>
+                </div>
+                <img src="images/fotos/costela/casa-2dorm-chalet-cantoni-rivadavia/2.jpeg" alt="Image" class="img-fluid">
+              </a>
+              <div class="p-4 property-body">
+                <a href="#" class="property-favorite"><span class="icon-heart-o"></span></a>
+                <h2 class="property-title"><a href="property-details.html">Casa 2 dormitorios cerca de Chalet Cantoni</a></h2>
+                <span class="property-location d-block mb-3"><span class="property-icon icon-room"></span> Calle Vieytes, 100 m. al Norte de Av. Libertador — Rivadavia</span>
+                <strong class="property-price text-primary mb-3 d-block text-success">Consultar</strong>
+                <ul class="property-specs-wrap mb-3 mb-lg-0">
+                  <li>
+                    <span class="property-specs">Habitaciones</span>
+                    <span class="property-specs-number">2 <sup>+</sup></span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Baños</span>
+                    <span class="property-specs-number">1</span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Superficie</span>
+                    <span class="property-specs-number">-</span>
+                    
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="property-entry h-100">
+              <a href="property-details.html" class="property-thumbnail">
+                <div class="offer-type-wrap">
+                  <!-- <span class="offer-type bg-info">Lease</span> -->
+                  <span class="offer-type bg-success">Alquiler</span>
+                </div>
+                <img src="images/fotos/costela/terreno-ideal-estacionamiento-capital/1.jpeg" alt="Image" class="img-fluid">
+              </a>
+              <div class="p-4 property-body">
+                <a href="#" class="property-favorite"><span class="icon-heart-o"></span></a>
+                <h2 class="property-title"><a href="property-details.html">Terreno ideal estacionamiento</a></h2>
+                <span class="property-location d-block mb-3"><span class="property-icon icon-room"></span> Ignacio de la Roza 1518 Oeste - Capital</span>
+                <strong class="property-price text-primary mb-3 d-block text-success">$45.000</strong>
+                <ul class="property-specs-wrap mb-3 mb-lg-0">
+                  <li>
+                    <span class="property-specs">Habitaciones</span>
+                    <span class="property-specs-number">- <sup></sup></span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Baños</span>
+                    <span class="property-specs-number">1</span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Superficie</span>
+                    <span class="property-specs-number">600 m2</span>
+                    
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="site-pagination">
+              <a href="#" class="active">1</a>
+              <a href="#">2</a>
+              <a href="#">3</a>
+              <a href="#">4</a>
+              <a href="#">5</a>
+              <span>...</span>
+              <a href="#">10</a>
+            </div>
+          </div>  
+        </div>
+        
       </div>
     </div>
 
