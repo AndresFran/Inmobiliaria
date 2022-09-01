@@ -89,7 +89,7 @@
                 <label for="list-types">Propiedad</label>
                 <div class="select-wrap">
                   <span class="icon icon-arrow_drop_down"></span>
-                  <select name="list-types" id="list-types" class="form-control d-block rounded-0">
+                  <select name="propiedad" id="propiedad" class="form-control d-block rounded-0">
                     <option value="">Todas las propiedades</option>
                     <option value="">Propiedad</option>
                     <?PHP while($propiedad=mysqli_fetch_assoc($rtspropiedad)){?>
@@ -102,7 +102,7 @@
                 <label for="offer-types">Operación</label>
                 <div class="select-wrap">
                   <span class="icon icon-arrow_drop_down"></span>
-                  <select name="offer-types" id="offer-types" class="form-control d-block rounded-0">
+                  <select name="operacion" id="operacion" class="form-control d-block rounded-0">
                     <option value="">Todas las operaciones</option>
                     <?PHP while($operacion=mysqli_fetch_assoc($rtsoperacion)){?>
                     <option value="<?PHP echo $operacion['idOperacion']; ?>"> <?PHP echo $operacion['nombreOperacion'];?></option>
@@ -114,7 +114,7 @@
                 <label for="select-city">Localidad</label>
                 <div class="select-wrap">
                   <span class="icon icon-arrow_drop_down"></span>
-                  <select name="select-city" id="select-city" class="form-control d-block rounded-0">
+                  <select name="localidad" id="localidad" class="form-control d-block rounded-0">
                     <option value="">Todas las localidades</option>
                     <option value="">Localidad</option>
                     <?PHP while($localidad=mysqli_fetch_assoc($rtslocalidad)){?>
