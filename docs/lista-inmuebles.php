@@ -170,7 +170,7 @@
         
         <?PHP echo $listado; ?>        
 
-        <div class="row">
+        <!--div class="row">
           <div class="col-md-12 text-center">
             <div class="site-pagination">
               <a href="#" class="active">1</a>
@@ -182,7 +182,7 @@
               <a href="#">10</a>
             </div>
           </div>  
-        </div>
+        </div--->
         
       </div>
     </div>
@@ -191,7 +191,6 @@
         </div>
       </div>
     </div>
-
     
     <footer class="site-footer">
       <div class="container">
@@ -201,8 +200,6 @@
               <h3 class="footer-heading mb-4">Acerca de Enlace Inmobiliario</h3>
               <p>Este portal nace con la necesidad imperiosa de ordenar y ejecutar trabajos coordinados entre Profesionales Corredores Inmobiliarios debidamente Matriculados en la Provincia de San Juan.</p>
             </div>
-
-            
             
           </div>
           <div class="col-lg-4 mb-5 mb-lg-0">
