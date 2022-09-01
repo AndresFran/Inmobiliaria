@@ -1,3 +1,6 @@
+<?PHP
+    include('php/det_inmueble.php');
+?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -51,10 +54,6 @@
            <a href="">
               <img src="images/logo.png" width="200" height=""/>
            </a>  
-            
-            
-          
-            <!-- <h1 class="mb-0"><a href="index.php" class="text-white h2 mb-0"><strong>Enlace Inmobiliario<span class="text-danger">.</span></strong></a></h1> -->
           </div>
         
           <div class="col-4 col-md-4 col-lg-8">
@@ -63,29 +62,13 @@
               <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
 
               <ul class="site-menu js-clone-nav d-none d-lg-block">
-                <li class="active">
-                  <a href="index.php">Inicio</a>
-                </li>
-                <!-- <li><a href="buy.html">Ventas</a></li>
-                <li><a href="rent.html">Alquileres</a></li>
-                <li class="has-children">
-                  <a href="properties.html">Propiedades</a>
-                  <ul class="dropdown arrow-top">
-                    <li><a href="#">Casas</a></li>
-                    <li><a href="#">Departamentos</a></li>
-                    <li><a href="#">Cocheras</a></li>
-                    <li><a href="#">Fincas</a></li>
-                    <li><a href="#">Salones</a></li>
-                    <li><a href="#">Lotes</a></li>
-                    <li><a href="#">Des. Inmobiliario</a></li>
-                  </ul>
-                </li> -->
+                <li><a href="index.php">Inicio</a></li>
+                <li class="active"><a href="index.php">Inmuebles</a></li>
                 <li><a href="servicios.html">Servicios</a></li> 
                 <li><a href="contacto.html">Contacto</a></li>
               </ul>
             </nav>
-          </div>
-        
+          </div>        
         </div>
       </div>
     </div>
@@ -96,8 +79,8 @@
         <div class="row align-items-center justify-content-center text-center">
           <div class="col-md-10">
             <span class="d-inline-block text-white px-3 mb-3 property-offer-type rounded">Detalle de la Propiedad</span>
-            <h1 class="mb-2">Casa Bº Natania VII</h1>
-            <p class="mb-5"><strong class="h2 text-success font-weight-bold">$65.000</strong></p>
+            <h1 class="mb-2"><?PHP echo $inmuebles['tituloInmueble']; ?></h1>
+            <p class="mb-5"><strong class="h2 text-success font-weight-bold"><?PHP $valorInmueble ?></strong></p>
           </div>
         </div>
       </div>
@@ -108,32 +91,22 @@
         <div class="row">
           <div class="col-lg-8">
             <div>
-              <div class="slide-one-item home-slider owl-carousel">
-                <div><img src="images/fotos/costela/casa-natania7-rawson/2.jpeg" alt="Image" class="img-fluid"></div>
-                <div><img src="images/fotos/costela/casa-natania7-rawson/3.jpeg" alt="Image" class="img-fluid"></div>
-                <div><img src="images/fotos/costela/casa-natania7-rawson/4.jpeg" alt="Image" class="img-fluid"></div>
-                <div><img src="images/fotos/costela/casa-natania7-rawson/5.jpeg" alt="Image" class="img-fluid"></div>
-                <div><img src="images/fotos/costela/casa-natania7-rawson/6.jpeg" alt="Image" class="img-fluid"></div>
-                <div><img src="images/fotos/costela/casa-natania7-rawson/7.jpeg" alt="Image" class="img-fluid"></div>
-                <div><img src="images/fotos/costela/casa-natania7-rawson/8.jpeg" alt="Image" class="img-fluid"></div>
-                <div><img src="images/fotos/costela/casa-natania7-rawson/9.jpeg" alt="Image" class="img-fluid"></div>
-              </div>
-            </div>
+              <?PHP $listadoImg; ?>
             <div class="bg-white property-body border-bottom border-left border-right">
               <div class="row mb-5">
                 <div class="col-md-6">
-                  <strong class="text-success h1 mb-3">$65.000</strong>
+                  <strong class="text-success h1 mb-3"><?PHP $valorInmueble ?></strong>
                 </div>
                 <div class="col-md-6">
                   <ul class="property-specs-wrap mb-3 mb-lg-0  float-lg-right">
                   <li>
                     <span class="property-specs">Habitaciones</span>
-                    <span class="property-specs-number">3 <sup>+</sup></span>
+                    <span class="property-specs-number"><?PHP $habitacionesInmueble ?></span>
                     
                   </li>
                   <li>
                     <span class="property-specs">Baños</span>
-                    <span class="property-specs-number">2</span>
+                    <span class="property-specs-number"><?PHP $banosInmueble ?></span>
                     
                   </li>
                   <li>
@@ -147,15 +120,15 @@
               <div class="row mb-5">
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
                   <span class="d-inline-block text-black mb-0 caption-text">Propiedad</span>
-                  <strong class="d-block">Casa</strong>
+                  <strong class="d-block"><?PHP $inmuebles['nombrePropiedad']; ?></strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
                   <span class="d-inline-block text-black mb-0 caption-text">Zona</span>
-                  <strong class="d-block">Capital</strong>
+                  <strong class="d-block"><?PHP $inmuebles['nombreLocalidad'] ?></strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
                   <span class="d-inline-block text-black mb-0 caption-text">Operación</span>
-                  <strong class="d-block">Alquiler</strong>
+                  <strong class="d-block"><?PHP $inmuebles['nombreOperacion']; ?></strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
                   <span class="d-inline-block text-black mb-0 caption-text">Sup. Cubierta</span>
