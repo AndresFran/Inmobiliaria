@@ -63,7 +63,7 @@
 
               <ul class="site-menu js-clone-nav d-none d-lg-block">
                 <li><a href="index.php">Inicio</a></li>
-                <li class="active"><a href="index.php">Inmuebles</a></li>
+                <li class="active"><a href="lista-inmuebles.php">Inmuebles</a></li>
                 <li><a href="servicios.html">Servicios</a></li> 
                 <li><a href="contacto.html">Contacto</a></li>
               </ul>
@@ -74,12 +74,12 @@
     </div>
   </div>
 
-    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/fotos/costela/casa-natania7-rawson/1.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(<?PHP echo $nomimg; ?>);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
           <div class="col-md-10">
             <span class="d-inline-block text-white px-3 mb-3 property-offer-type rounded">Detalle de la Propiedad</span>
-            <h1 class="mb-2"><?PHP echo $inmuebles['tituloInmueble']; ?></h1>
+            <h1 class="mb-2"><?PHP echo $inmueble['tituloInmueble']; ?></h1>
             <p class="mb-5"><strong class="h2 text-success font-weight-bold"><?PHP $valorInmueble ?></strong></p>
           </div>
         </div>
@@ -91,60 +91,57 @@
         <div class="row">
           <div class="col-lg-8">
             <div>
-              <?PHP $listadoImg; ?>
+              <?PHP echo $listadoImg; ?>
+            </div> 
             <div class="bg-white property-body border-bottom border-left border-right">
               <div class="row mb-5">
                 <div class="col-md-6">
-                  <strong class="text-success h1 mb-3"><?PHP $valorInmueble ?></strong>
+                  <strong class="text-success h1 mb-3"><?PHP echo $valorInmueble; ?></strong>
                 </div>
                 <div class="col-md-6">
                   <ul class="property-specs-wrap mb-3 mb-lg-0  float-lg-right">
                   <li>
                     <span class="property-specs">Habitaciones</span>
-                    <span class="property-specs-number"><?PHP $habitacionesInmueble ?></span>
+                    <span class="property-specs-number"><?PHP echo $habitacionesInmueble; ?></span>
                     
                   </li>
                   <li>
                     <span class="property-specs">Baños</span>
-                    <span class="property-specs-number"><?PHP $banosInmueble ?></span>
+                    <span class="property-specs-number"><?PHP echo $banosInmueble; ?></span>
                     
                   </li>
-                  <li>
-                    <!-- <span class="property-specs">SQ FT</span>
-                    <span class="property-specs-number">7,000</span> -->
-                    
-                  </li>
+
                 </ul>
                 </div>
               </div>
               <div class="row mb-5">
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
                   <span class="d-inline-block text-black mb-0 caption-text">Propiedad</span>
-                  <strong class="d-block"><?PHP $inmuebles['nombrePropiedad']; ?></strong>
+                  <strong class="d-block"><?PHP echo $inmueble['nombrePropiedad']; ?></strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
                   <span class="d-inline-block text-black mb-0 caption-text">Zona</span>
-                  <strong class="d-block"><?PHP $inmuebles['nombreLocalidad'] ?></strong>
+                  <strong class="d-block"><?PHP echo $inmueble['nombreLocalidad']; ?></strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
                   <span class="d-inline-block text-black mb-0 caption-text">Operación</span>
-                  <strong class="d-block"><?PHP $inmuebles['nombreOperacion']; ?></strong>
+                  <strong class="d-block"><?PHP echo $inmueble['nombreOperacion']; ?></strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
                   <span class="d-inline-block text-black mb-0 caption-text">Sup. Cubierta</span>
-                  <strong class="d-block">65 m2</strong>
+                  <strong class="d-block"><?PHP echo $superficieCubiertaInmueble; ?></strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
                   <span class="d-inline-block text-black mb-0 caption-text">Sup. Total</span>
-                  <strong class="d-block">311 m2</strong>
+                  <strong class="d-block"><?PHP echo $superficieTotalInmueble; ?></strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
                   <span class="d-inline-block text-black mb-0 caption-text">Info adicional</span>
-                  <strong class="d-block">No se aceptan mascotas ni niños pequeños</strong>
+                  <strong class="d-block"><?PHP echo $inmueble['informacionAdicionalInmueble']; ?></strong>
                 </div>
               </div>
               <h2 class="h4 text-black">Descripción</h2>
-              <p>Casa de primer nivel, con 3 dormitorios con acondicionador de aire (4 aires en total), 2 baños, cochera para 3 vehículos, jardín y fondo parquizado con parrillero, galería y habitación de servicio. IMPECABLE.<p>
+              <p><?PHP echo $inmueble['descripcionInmueble']; ?><p>
               <!-- <div class="row no-gutters mt-5">
                 <div class="col-12">
                   <h2 class="h4 text-black mb-3">Galería</h2>
@@ -209,7 +206,6 @@
                 <div class="form-group">
                   <label for="mensaje">Mensaje</label>
                   <textarea name="comentario" rows="5" cols="30" class="form-control"></textarea>
-
 
                 </div>
                 <div class="form-group">

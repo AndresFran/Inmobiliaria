@@ -39,7 +39,7 @@
                 $listado .= "<a href='detalle-inmueble.php?idInmueble=" . $inmuebles['idInmueble'] ."' class='property-thumbnail'>";
                     $listado .= "<div class='offer-type-wrap'>";
                     $listado .= "<span class='offer-type bg-success'>" . $inmuebles['nombrePropiedad'] . "</span>";
-                        $listado .= "<span class='offer-type bg-secondary'>" . $inmuebles['nombreOperacion'] . "</span>";
+                    $listado .= "<span class='offer-type bg-secondary'>" . $inmuebles['nombreOperacion'] . "</span>";
                     $listado .= "</div>";
                     $listado .= "<img src='" . $nomimg ."' alt='" . $idimg . "' class='img-fluid'>";
                 $listado .= "</a>";
