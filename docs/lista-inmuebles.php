@@ -165,8 +165,7 @@
     <div class="site-section site-section-sm bg-light">
       <div class="container">       
         
-        <!-- Listado -->
-        
+        <!-- Listado -->        
         <?PHP echo $listado; ?>        
 
         <!--div class="row">
