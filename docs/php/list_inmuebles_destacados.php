@@ -34,7 +34,11 @@
         if($inmueblesdest['banosInmueble']>0){$banosInmuebleDest=$inmueblesdest['banosInmueble'];}else{$banosInmuebleDest="&nbsp;-&nbsp;";};
         if($inmueblesdest['superficieCubiertaInmueble']>0){$superficieCubiertaInmuebleDest=$inmueblesdest['superficieCubiertaInmueble'];}else{$superficieCubiertaInmuebleDest="-";};
         if($inmueblesdest['valorInmueble']>0){$valorInmuebleDest=$inmueblesdest['monedaInmueble'] . "</b>&nbsp;". $inmueblesdest['valorInmueble'];}else{$valorInmuebleDest="Consultar";};
-
+        $domicilio = "";
+        if(!empty($inmueblesdest['domicilioNumeroInmueble'])){$domicilio .= " " . $inmueblesdest['domicilioNumeroInmueble'];}
+        if(!empty($inmueblesdest['domicilioOrientacionInmueble'])){$domicilio .= " " . $inmueblesdest['domicilioOrientacionInmueble'];}
+        if(!empty($inmueblesdest['nombreLocalidad'])){$domicilio .= "<br>&nbsp;<b>" . $inmueblesdest['nombreLocalidad'] . "</b>";}
+        
         $destacado .= "<div class='col-md-6 col-lg-4 mb-4'>";
             $destacado .= "<div class='property-entry h-100'>";               
                 $destacado .= "<a href='detalle-inmueble.php?idInmueble=" . $inmueblesdest['idInmueble'] . "&operacion=". $inmueblesdest['idOperacion'] . "&propiedad=". $inmueblesdest['idPropiedad'] . "' class='property-thumbnail'>";
@@ -46,7 +50,7 @@
                 $destacado .= "</a>";
                 $destacado .= "<div class='p-4 property-body'>";
                     $destacado .= "<h2 class='property-title'><a href='detalle-inmueble.php?idInmueble=" . $inmueblesdest['idInmueble'] . "&pperacion=". $inmueblesdest['idOperacion'] . "&propiedad=". $inmueblesdest['idPropiedad'] . "'>" .  $inmueblesdest['tituloInmueble'] . "</a></h2>";
-                    $destacado .= "<span class='property-location d-block mb-3'><span class='property-icon icon-room'></span>" . $inmueblesdest['domicilioCalleInmueble'] . "</span>";
+                    $destacado .= "<span class='property-location d-block mb-3'><span class='property-icon icon-room'></span>" . $inmueblesdest['domicilioCalleInmueble'] . $domicilio ."</span>";
                     $destacado .= "<strong class='property-price text-primary mb-3 d-block text-success'>" . $valorInmuebleDest . "</strong>";
                     $destacado .= "<ul class='property-specs-wrap mb-3 mb-lg-0'>";
                         $destacado .= "<li>";

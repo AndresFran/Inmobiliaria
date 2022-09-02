@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
-    <!--HAY QUE HACER UN NUEVO ÍCONO REDONDO-->
     
     <!--Agrego el ícono de Enlace para probar-->
     <link rel="icon" type="image/png" href="images/icono.png" />
@@ -230,7 +229,7 @@
          <div class="row">
             <div class="col-12">
               <div class="site-section-title mb-5">
-                <h2><?PHP echo $tituloDestacado; ?></h2>
+                <h3><?PHP echo $tituloDestacado; ?></h3>
               </div>
             </div>
           </div>
