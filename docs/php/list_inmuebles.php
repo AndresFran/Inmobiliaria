@@ -36,7 +36,7 @@
 
         $listado .= "<div class='col-md-6 col-lg-4 mb-4'>";
             $listado .= "<div class='property-entry h-100'>";
-                $listado .= "<a href='detalle-inmueble.php?idInmueble=" . $inmuebles['idInmueble'] ."' class='property-thumbnail'>";
+                $listado .= "<a href='detalle-inmueble.php?idInmueble=" . $inmuebles['idInmueble'] . "&operacion=". $inmuebles['idOperacion'] . "&propiedad=". $inmuebles['idPropiedad'] . "' class='property-thumbnail'>";
                     $listado .= "<div class='offer-type-wrap'>";
                     $listado .= "<span class='offer-type bg-success'>" . $inmuebles['nombrePropiedad'] . "</span>";
                     $listado .= "<span class='offer-type bg-secondary'>" . $inmuebles['nombreOperacion'] . "</span>";
@@ -44,7 +44,7 @@
                     $listado .= "<img src='" . $nomimg ."' alt='" . $idimg . "' class='img-fluid'>";
                 $listado .= "</a>";
                 $listado .= "<div class='p-4 property-body'>";
-                    $listado .= "<h2 class='property-title'><a href='detalle-inmueble.php?idInmueble=" . $inmuebles['idInmueble'] ."'>" .  $inmuebles['tituloInmueble'] . "</a></h2>";
+                    $listado .= "<h2 class='property-title'><a href='detalle-inmueble.php?idInmueble=" . $inmuebles['idInmueble'] . "&operacion=". $inmuebles['idOperacion'] . "&propiedad=". $inmuebles['idPropiedad'] . "'>" .  $inmuebles['tituloInmueble'] . "</a></h2>";
                     $listado .= "<span class='property-location d-block mb-3'><span class='property-icon icon-room'></span>" . $inmuebles['domicilioCalleInmueble'] . "</span>";
                     $listado .= "<strong class='property-price text-primary mb-3 d-block text-success'>" . $valorInmueble . "</strong>";
                     $listado .= "<ul class='property-specs-wrap mb-3 mb-lg-0'>";

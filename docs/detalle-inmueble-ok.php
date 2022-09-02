@@ -27,11 +27,8 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
-    <!--HAY QUE HACER UN NUEVO ÍCONO REDONDO-->
-    
-    <!--Agrego el ícono de Enlace para probar-->
     <link rel="icon" type="image/png" href="images/icono.png" />
-    <!--Agrego el ícono de Enlace para probar-->
+    
   </head>
   <body>
   
@@ -52,9 +49,8 @@
       <div class="container py-1">
         <div class="row align-items-center">
           <div class="col-8 col-md-8 col-lg-4">
-           <a href=""><img src="images/logo.png" width="200" height=""/></a>  
+          <a href=""><img src="images/logo.png" width="200" height=""/></a>
           </div>
-        
           <div class="col-4 col-md-4 col-lg-8">
             <nav class="site-navigation text-right text-md-right" role="navigation">
 
@@ -67,19 +63,19 @@
                 <li><a href="contacto.html">Contacto</a></li>
               </ul>
             </nav>
-          </div>        
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(<?PHP echo $nomimg; ?>);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/fotos/costela/casa-natania7-rawson/1.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
           <div class="col-md-10">
             <span class="d-inline-block text-white px-3 mb-3 property-offer-type rounded">Detalle de la Propiedad</span>
             <h1 class="mb-2"><?PHP echo $inmueble['tituloInmueble']; ?></h1>
-            <p class="mb-5"><strong class="h2 text-success font-weight-bold"><?PHP echo $valorInmueble; ?></strong></p>
+            <p class="mb-5"><strong class="h2 text-success font-weight-bold">$65.000</strong></p>
           </div>
         </div>
       </div>
@@ -90,57 +86,58 @@
         <div class="row">
           <div class="col-lg-8">
             <div>
-              <?PHP echo $listadoImg; ?>
-            </div> 
+              <div class="slide-one-item home-slider owl-carousel">
+                <div><img src="images/fotos/costela/casa-natania7-rawson/2.jpeg" alt="Image" class="img-fluid"></div>
+                <div><img src="images/fotos/costela/casa-natania7-rawson/3.jpeg" alt="Image" class="img-fluid"></div>
+                <div><img src="images/fotos/costela/casa-natania7-rawson/4.jpeg" alt="Image" class="img-fluid"></div>
+                <div><img src="images/fotos/costela/casa-natania7-rawson/5.jpeg" alt="Image" class="img-fluid"></div>
+                <div><img src="images/fotos/costela/casa-natania7-rawson/6.jpeg" alt="Image" class="img-fluid"></div>
+                <div><img src="images/fotos/costela/casa-natania7-rawson/7.jpeg" alt="Image" class="img-fluid"></div>
+                <div><img src="images/fotos/costela/casa-natania7-rawson/8.jpeg" alt="Image" class="img-fluid"></div>
+                <div><img src="images/fotos/costela/casa-natania7-rawson/9.jpeg" alt="Image" class="img-fluid"></div>
+              </div>
+            </div>
             <div class="bg-white property-body border-bottom border-left border-right">
               <div class="row mb-5">
                 <div class="col-md-6">
-                  <strong class="text-success h1 mb-3"><?PHP echo $valorInmueble; ?></strong>
+                  <strong class="text-success h1 mb-3">$65.000</strong>
                 </div>
                 <div class="col-md-6">
                   <ul class="property-specs-wrap mb-3 mb-lg-0  float-lg-right">
                   <li>
                     <span class="property-specs">Habitaciones</span>
-                    <span class="property-specs-number"><?PHP echo $habitacionesInmueble; ?></span>
+                    <span class="property-specs-number">3 <sup>+</sup></span>
                     
                   </li>
                   <li>
                     <span class="property-specs">Baños</span>
-                    <span class="property-specs-number"><?PHP echo $banosInmueble; ?></span>
+                    <span class="property-specs-number">2</span>
                     
                   </li>
-
+                  <li>
+                    <!-- <span class="property-specs">SQ FT</span>
+                    <span class="property-specs-number">7,000</span> -->
+                    
+                  </li>
                 </ul>
                 </div>
               </div>
               <div class="row mb-5">
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
                   <span class="d-inline-block text-black mb-0 caption-text">Propiedad</span>
-                  <strong class="d-block"><?PHP echo $inmueble['nombrePropiedad']; ?></strong>
+                  <strong class="d-block">Casa</strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
-                  <span class="d-inline-block text-black mb-0 caption-text">Zona</span>
-                  <strong class="d-block"><?PHP echo $inmueble['nombreLocalidad']; ?></strong>
+                  <span class="d-inline-block text-black mb-0 caption-text">Año de construcción</span>
+                  <strong class="d-block">-</strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
-                  <span class="d-inline-block text-black mb-0 caption-text">Operación</span>
-                  <strong class="d-block"><?PHP echo $inmueble['nombreOperacion']; ?></strong>
-                </div>
-                <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
-                  <span class="d-inline-block text-black mb-0 caption-text">Sup. Cubierta</span>
-                  <strong class="d-block"><?PHP echo $superficieCubiertaInmueble; ?></strong>
-                </div>
-                <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
-                  <span class="d-inline-block text-black mb-0 caption-text">Sup. Total</span>
-                  <strong class="d-block"><?PHP echo $superficieTotalInmueble; ?></strong>
-                </div>
-                <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
-                  <span class="d-inline-block text-black mb-0 caption-text">Info adicional</span>
-                  <strong class="d-block"><?PHP echo $inmueble['informacionAdicionalInmueble']; ?></strong>
+                  <span class="d-inline-block text-black mb-0 caption-text">Superficie</span>
+                  <strong class="d-block">-</strong>
                 </div>
               </div>
               <h2 class="h4 text-black">Descripción</h2>
-              <p><?PHP echo $inmueble['descripcionInmueble']; ?></p>
+              <p>Casa de primer nivel, con 3 dormitorios con acondicionador de aire (4 aires en total), 2 baños, cochera para 3 vehículos, jardín y fondo parquizado con parrillero, galería y habitación de servicio. IMPECABLE.<p>
               <!-- <div class="row no-gutters mt-5">
                 <div class="col-12">
                   <h2 class="h4 text-black mb-3">Galería</h2>
@@ -200,13 +197,7 @@
                 </div>
                 <div class="form-group">
                   <label for="phone">Teléfono</label>
-                  <input type="number" id="phone" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label for="mensaje">Mensaje</label>
-                  <textarea name="comentario" rows="5" class="form-control">
-                  </textarea>
-
+                  <input type="text" id="phone" class="form-control">
                 </div>
                 <div class="form-group">
                   <input type="submit" id="phone" class="btn btn-primary" value="Enviar Mensaje">
@@ -214,30 +205,136 @@
               </form>
             </div>
 
-            <!--div class="bg-white widget border rounded">
+            <!-- <div class="bg-white widget border rounded">
               <h3 class="h4 text-black widget-title mb-3">Paragraph</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit qui explicabo, libero nam, saepe eligendi. Molestias maiores illum error rerum. Exercitationem ullam saepe, minus, reiciendis ducimus quis. Illo, quisquam, veritatis.</p>
-            </div-->
-          </div>
+            </div> -->
 
+          </div>
+          
         </div>
       </div>
     </div>
 
     <div class="site-section site-section-sm bg-light">
-      <div- class="container">
+      <div class="container">
 
-         <div class="row">
-            <div class="col-12">
-              <div class="site-section-title mb-5">
-                <h2><?PHP echo $tituloDestacado; ?></h2>
+        <div class="row">
+          <div class="col-12">
+            <div class="site-section-title mb-5">
+              <h2>Propiedades Relacionadas</h2>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="property-entry h-100">
+              <a href="property-details.html" class="property-thumbnail">
+                <div class="offer-type-wrap">
+                  <span class="offer-type bg-danger">Sale</span>
+                  <span class="offer-type bg-success">Rent</span>
+                </div>
+                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="p-4 property-body">
+                <a href="#" class="property-favorite"><span class="icon-heart-o"></span></a>
+                <h2 class="property-title"><a href="property-details.html">625 S. Berendo St</a></h2>
+                <span class="property-location d-block mb-3"><span class="property-icon icon-room"></span> 625 S. Berendo St Unit 607 Los Angeles, CA 90005</span>
+                <strong class="property-price text-primary mb-3 d-block text-success">$2,265,500</strong>
+                <ul class="property-specs-wrap mb-3 mb-lg-0">
+                  <li>
+                    <span class="property-specs">Beds</span>
+                    <span class="property-specs-number">2 <sup>+</sup></span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Baths</span>
+                    <span class="property-specs-number">2</span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">SQ FT</span>
+                    <span class="property-specs-number">7,000</span>
+                    
+                  </li>
+                </ul>
+
               </div>
             </div>
           </div>
-        
-          <div class="row mb-5">
-            <?PHP echo $destacado; ?>
-          </div>       
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="property-entry h-100">
+              <a href="property-details.html" class="property-thumbnail">
+                <div class="offer-type-wrap">
+                  <span class="offer-type bg-danger">Sale</span>
+                  <span class="offer-type bg-success">Rent</span>
+                </div>
+                <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="p-4 property-body">
+                <a href="#" class="property-favorite active"><span class="icon-heart-o"></span></a>
+                <h2 class="property-title"><a href="property-details.html">871 Crenshaw Blvd</a></h2>
+                <span class="property-location d-block mb-3"><span class="property-icon icon-room"></span> 1 New York Ave, Warners Bay, NSW 2282</span>
+                <strong class="property-price text-primary mb-3 d-block text-success">$2,265,500</strong>
+                <ul class="property-specs-wrap mb-3 mb-lg-0">
+                  <li>
+                    <span class="property-specs">Beds</span>
+                    <span class="property-specs-number">2 <sup>+</sup></span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Baths</span>
+                    <span class="property-specs-number">2</span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">SQ FT</span>
+                    <span class="property-specs-number">1,620</span>
+                    
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="property-entry h-100">
+              <a href="property-details.html" class="property-thumbnail">
+                <div class="offer-type-wrap">
+                  <span class="offer-type bg-info">Lease</span>
+                </div>
+                <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="p-4 property-body">
+                <a href="#" class="property-favorite"><span class="icon-heart-o"></span></a>
+                <h2 class="property-title"><a href="property-details.html">853 S Lucerne Blvd</a></h2>
+                <span class="property-location d-block mb-3"><span class="property-icon icon-room"></span> 853 S Lucerne Blvd Unit 101 Los Angeles, CA 90005</span>
+                <strong class="property-price text-primary mb-3 d-block text-success">$2,265,500</strong>
+                <ul class="property-specs-wrap mb-3 mb-lg-0">
+                  <li>
+                    <span class="property-specs">Beds</span>
+                    <span class="property-specs-number">2 <sup>+</sup></span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">Baths</span>
+                    <span class="property-specs-number">2</span>
+                    
+                  </li>
+                  <li>
+                    <span class="property-specs">SQ FT</span>
+                    <span class="property-specs-number">5,500</span>
+                    
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <footer class="site-footer">
@@ -247,7 +344,7 @@
               <div class="mb-5">
                 <h3 class="footer-heading mb-4">Acerca de Enlace Inmobiliario</h3>
                 <p>Este portal nace con la necesidad imperiosa de ordenar y ejecutar trabajos coordinados entre Profesionales Corredores Inmobiliarios debidamente Matriculados en la Provincia de San Juan.</p>
-              </div>
+              </div>              
               
             </div>
             <div class="col-lg-4 mb-5 mb-lg-0">
@@ -257,19 +354,27 @@
                 </div>
                 <div class="col-md-6 col-lg-6">
                   <ul class="list-unstyled">
-                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <!-- <li><a href="buy.html">Ventas</a></li>
+                    <li><a href="rent.html">Alquileres</a></li>
+                    <li><a href="properties.html">Propiedades</a></li> -->
                     <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                   </ul>
                 </div>
                 <div class="col-md-6 col-lg-6">
                   <ul class="list-unstyled">
+                    <!-- <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contact.html">Contacto</a></li> -->
                     <li><a href="#">Política de privacidad</a></li>
                     <li><a href="terminos.html">Términos y Condiciones</a></li>
                   </ul>
                 </div>
               </div>
+  
+  
             </div>
+            
           </div>
           <div class="row pt-5 mt-5 text-center">
             <div class="col-md-12">
