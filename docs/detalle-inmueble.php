@@ -187,28 +187,32 @@
 
             <div class="bg-white widget border rounded">
 
-              <h3 class="h4 text-black widget-title mb-3">Contactar al Agente</h3>
-              <form action="" class="form-contact-agent">
+              <h3 class="h4 text-black widget-title mb-3">Contactar al Agente</h3>              
+              <form action="php/consulta.php" class="form-contact-agent" method="GET">
                 <div class="form-group">
                   <label for="name">Apellido y Nombre</label>
-                  <input type="text" id="name" class="form-control">
+                  <input type="text" id="nombreConsulta" name="nombreConsulta" class="form-control" request>
                 </div>
                 <div class="form-group">
                   <label for="email">eMail</label>
-                  <input type="email" id="email" class="form-control">
+                  <input type="email" id="mailConsulta" name="mailConsulta"  class="form-control">
                 </div>
                 <div class="form-group">
                   <label for="phone">Teléfono</label>
-                  <input type="number" id="phone" class="form-control">
+                  <input type="number" id="telefonoConsulta" name="telefonoConsulta" class="form-control" request>
                 </div>
                 <div class="form-group">
                   <label for="mensaje">Mensaje</label>
-                  <textarea name="comentario" rows="5" class="form-control">
+                  <textarea id="comentarioConsulta"  name="comentarioConsulta" class="form-control">
+
+                  
                   </textarea>
 
                 </div>
                 <div class="form-group">
-                  <input type="submit" id="phone" class="btn btn-primary" value="Enviar Mensaje">
+                  <input type="hidden" id="idInmueble" name="idInmueble" value="<?PHP echo $_REQUEST['idInmueble']; ?>"/>
+                  <input type="hidden" id="idAgenteInmueble" name="idAgenteInmueble" value="<?PHP echo $inmueble['agenteInmueble']; ?>"/>
+                  <input type="submit" class="btn btn-primary" value="Enviar Mensaje">
                 </div>
               </form>
             </div>
