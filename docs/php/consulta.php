@@ -10,12 +10,14 @@ $fecha = date("Y-m-d H:i:s");
 	`idAgenteInmueble`,
 	`nombreConsulta`,
 	`telefonoConsulta`,
+	`mailConsulta`,
 	`comentarioConsulta`,
 	`baja`
 	)VALUES(
 	'$_REQUEST[idInmueble]',
 	'$_REQUEST[idAgenteInmueble]',
 	'$_REQUEST[nombreConsulta]',
+	'$_REQUEST[mailConsulta]',
 	'$_REQUEST[telefonoConsulta]',
 	'$_REQUEST[comentarioConsulta]',
 	'0')";
