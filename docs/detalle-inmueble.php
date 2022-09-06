@@ -211,7 +211,7 @@
                 </div>
                 <div class="form-group">
                   <input type="hidden" id="idInmueble" name="idInmueble" value="<?PHP echo $_REQUEST['idInmueble']; ?>"/>
-                  <input type="hidden" id="idAgenteInmueble" name="idAgenteInmueble" value="<?PHP echo $inmueble['agenteInmueble']; ?>"/>
+                  <input type="hidden" id="idUsuario" name="idUsuario" value="<?PHP echo $inmueble['idUsuario']; ?>"/>
                   <input type="submit" class="btn btn-primary" value="Enviar Mensaje">
                 </div>
               </form>

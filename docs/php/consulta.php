@@ -7,7 +7,7 @@ $fecha = date("Y-m-d H:i:s");
 
 	$query="INSERT INTO consulta (	
 	`idInmueble`,
-	`idAgenteInmueble`,
+	`idUsuario`,
 	`nombreConsulta`,
 	`telefonoConsulta`,
 	`mailConsulta`,
@@ -15,7 +15,7 @@ $fecha = date("Y-m-d H:i:s");
 	`baja`
 	)VALUES(
 	'$_REQUEST[idInmueble]',
-	'$_REQUEST[idAgenteInmueble]',
+	'$_REQUEST[idUsuario]',
 	'$_REQUEST[nombreConsulta]',
 	'$_REQUEST[mailConsulta]',
 	'$_REQUEST[telefonoConsulta]',
