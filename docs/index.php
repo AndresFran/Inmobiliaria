@@ -371,7 +371,7 @@
               <!-- <i class="fa-solid fa-file-certificate"></i> -->
               <h1 style="font-size: 5em;"> <i class="fa-solid fa-user-graduate"></i></h1>
               <h2 class="service-heading">Capacidad</h2>
-              <p>Todo nuestro trabajo está avalado por nuestra matrícula, la cual representa nuestro profesionalismo y dedicación. De esa manera el cliente y público en general podrá diferenciar fácilmente en el mercado al que está debidamente habilitado del que no.</p>
+              <p>Todo nuestro trabajo está avalado por nuestra matrícula, la cual representa nuestro profesionalismo y dedicación. De esa manera el cliente y público en general podrá diferenciar fácilmente en el mercado a quién está debidamente habilitado.</p>
               <!-- <p><span class="read-more">Enterate aquí</span></p> -->
             </a>
           </div>
