@@ -377,7 +377,7 @@
               <!-- <i class="fa-solid fa-handshake-simple"></i> -->
               <h1 style="font-size: 5em;"> <i class="fa-solid fa-handshake-simple"></i></h1>
               <h2 class="service-heading">Cooperación</h2>
-              <p>El grupo de profesionales de Enlace Inmobiliario trabajará mancomunadamente de cara al cliente para logar que su inmueble sea tratado por una red de éticos profesionales que pondrán su esfuerzo en el servicio contratado, multiplicando sus posibilidades de éxito.</p>
+              <p align="justify">Este portal nace con la necesidad imperiosa de ordenar y ejecutar trabajos coordinados entre un grupo de Profesionales Corredores Inmobiliarios debidamente Matriculados en la Provincia de San Juan.</p>
               <!-- <p><span class="read-more">Enterate aquí</span></p> -->
             </a>
           </div>

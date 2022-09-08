@@ -197,7 +197,7 @@
           <div class="col-lg-4">
             <div class="mb-5">
               <h3 class="footer-heading mb-4">Acerca de Enlace Inmobiliario</h3>
-              <p>Este portal nace con la necesidad imperiosa de ordenar y ejecutar trabajos coordinados entre Profesionales Corredores Inmobiliarios debidamente Matriculados en la Provincia de San Juan.</p>
+              <p align="justify">Este portal nace con la necesidad imperiosa de ordenar y ejecutar trabajos coordinados entre un grupo de Profesionales Corredores Inmobiliarios debidamente Matriculados en la Provincia de San Juan.</p>
             </div>
             
           </div>
@@ -211,20 +211,19 @@
                   <li><a href="index.php">Inicio</a></li>
                   <li><a href="servicios.html">Servicios</a></li>
                   <li><a href="contacto.html">Contacto</a></li>
+                  <li><a href="gestion/">Gestion</a></li>
                 </ul>
               </div>
               <div class="col-md-6 col-lg-6">
                 <ul class="list-unstyled">
-                  <!-- <li><a href="servicios.html">Servicios</a></li>
-                  <li><a href="contact.html">Contacto</a></li> -->
                   <li><a href="#">Política de privacidad</a></li>
                   <li><a href="terminos.html">Términos y Condiciones</a></li>
                 </ul>
               </div>
             </div>
-            
-          </div>
 
+          </div>
+                      
           <!--div class="col-lg-4 mb-5 mb-lg-0">
             <h3 class="footer-heading mb-4">Seguinos en las Redes</h3>
 
