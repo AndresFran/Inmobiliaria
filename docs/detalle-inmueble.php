@@ -189,7 +189,7 @@
 
             <div class="bg-white widget border rounded">
 
-              <h3 class="h4 text-black widget-title mb-3">Contactar al Agente</h3>              
+              <h3 class="h4 text-black widget-title mb-3">Contactar al Corredor</h3>              
               <form action="php/consulta.php" class="form-contact-agent" method="GET">
                 <div class="form-group">
                   <label for="name">Apellido y Nombre</label>
