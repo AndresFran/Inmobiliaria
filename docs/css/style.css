@@ -1,7 +1,7 @@
 /* Base */
 
 body {
-  line-height: 1.7;
+  line-height: 4;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 400;
   font-size: 1rem;
@@ -542,7 +542,7 @@ a {
     min-height: 600px;
     height: calc(100vh); }
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover .row {
-    min-height: 430px;
+    min-height: 600px;
     height: calc(30vh); }
   .site-blocks-cover .sub-text {
     font-size: 1.1rem;
