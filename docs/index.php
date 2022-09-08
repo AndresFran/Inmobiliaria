@@ -278,7 +278,7 @@
           <form class="form-search col-md-12" style="margin-top: -100px;" action="lista-inmuebles.php" method="POST" >
             <div class="row  align-items-end">
               <div class="col-md-3">
-                <label for="list-types">Propiedad</label>
+                <label for="list-types">&nabla;&nbsp;Propiedad</label>
                 <div class="select-wrap">
                   <span class="icon icon-arrow_drop_down"></span>
                   <select name="propiedad" id="propiedad" class="form-control d-block rounded-0">
@@ -290,7 +290,7 @@
                 </div>
               </div>
               <div class="col-md-3">
-                <label for="offer-types">Operación</label>
+                <label for="offer-types">&nabla;&nbsp;Operación</label>
                 <div class="select-wrap">
                   <span class="icon icon-arrow_drop_down"></span>
                   <select name="operacion" id="operacion" class="form-control d-block rounded-0">
@@ -302,7 +302,7 @@
                 </div>
               </div>
               <div class="col-md-3">
-                <label for="select-city">Localidad</label>
+                <label for="select-city">&nabla;&nbsp;Localidad</label>
                 <div class="select-wrap">
                   <span class="icon icon-arrow_drop_down"></span>
                   <select name="localidad" id="localidad" class="form-control d-block rounded-0">
