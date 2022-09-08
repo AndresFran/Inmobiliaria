@@ -1,5 +1,4 @@
-
-¿'4321+*<?PHP
+<?PHP
     include('php/list_opciones.php');
 ?>
 <!DOCTYPE html>
