@@ -158,7 +158,7 @@
         
         <div class="row">
           <div class="col-md-6 col-lg-4">
-            <a href="#" class="service text-center">
+            <a class="service text-center" style="color: #364e68";>
               <!-- <i class="fa-solid fa-file-certificate"></i> -->
               <h1 style="font-size: 5em;"> <i class="fa-sharp fa-solid fa-house-circle-check"></i></h1>
               <h2 class="service-heading">Tipo de Propiedad</h2>
@@ -167,7 +167,7 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a href="#" class="service text-center">
+            <a class="service text-center" style="color: #364e68";>
               <!-- <i class="fa-solid fa-award"></i> -->
               <h1 style="font-size: 5em;"> <i class="fa-sharp fa-solid fa-file-signature"></i> </h1>
               <h2 class="service-heading">Tipo de Operación</h2>
@@ -176,7 +176,7 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a href="#" class="service text-center">
+            <a class="service text-center" style="color: #364e68";>
               <!-- <i class="fa-solid fa-handshake-simple"></i> -->
               <h1 style="font-size: 5em;"> <i class="fa-solid fa-map-location-dot"></i></h1>
               <h2 class="service-heading">Localidades</h2>
