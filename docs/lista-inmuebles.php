@@ -65,6 +65,7 @@
                 <li class="active">
                   <a href="index.php">Inicio</a>
                 </li>
+                <li><a href="inmuebles.php">Inmuebles</a></li>
                 <li><a href="servicios.html">Servicios</a></li> 
                 <li><a href="contacto.html">Contacto</a></li>
               </ul>
