@@ -264,10 +264,11 @@
               </div>
               <div class="col-md-6 col-lg-6">
                 <ul class="list-unstyled">
-                  <li><a href="index.php">Inicio</a></li>
+                <li><a href="index.php">Inicio</a></li>
                   <li><a href="inmuebles.php">Inmuebles</a></li>
                   <li><a href="servicios.html">Servicios</a></li>
                   <li><a href="contacto.html">Contacto</a></li>
+                  <li><a href="gestion/">Gestión</a></li>
                 </ul>
               </div>
               <div class="col-md-6 col-lg-6">
