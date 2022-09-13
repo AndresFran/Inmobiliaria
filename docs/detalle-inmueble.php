@@ -189,7 +189,7 @@
 
             <div class="bg-white widget border rounded">
 
-              <h3 class="h4 text-black widget-title mb-3">Contactar al Agente</h3>              
+              <h3 class="h4 text-black widget-title mb-3">Contactar al Corredor</h3>              
               <form action="php/consulta.php" class="form-contact-agent" method="GET">
                 <div class="form-group">
                   <label for="name">Apellido y Nombre</label>
@@ -264,10 +264,11 @@
               </div>
               <div class="col-md-6 col-lg-6">
                 <ul class="list-unstyled">
-                  <li><a href="index.php">Inicio</a></li>
+                <li><a href="index.php">Inicio</a></li>
                   <li><a href="inmuebles.php">Inmuebles</a></li>
                   <li><a href="servicios.html">Servicios</a></li>
                   <li><a href="contacto.html">Contacto</a></li>
+                  <li><a href="gestion/">Gestión</a></li>
                 </ul>
               </div>
               <div class="col-md-6 col-lg-6">

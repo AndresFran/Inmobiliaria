@@ -265,11 +265,10 @@
           <form class="form-search col-md-12" style="margin-top: -100px;" action="lista-inmuebles.php" method="POST" >
             <div class="row  align-items-end">
               <div class="col-md-3">
-                <label for="list-types">&nabla;&nbsp;Propiedad</label>
+                <label for="list-types">Propiedad</label>
                 <div class="select-wrap">
-                  <span class="icon icon-arrow_drop_down"></span>
                   <select name="propiedad" id="propiedad" class="form-control d-block rounded-0">
-                    <option value="">Todas las propiedades</option>
+                    <option value=""><b>&nabla;</b>&nbsp;Todas las propiedades</option>
                       <?PHP while($propiedad=mysqli_fetch_assoc($rtspropiedad)){?>
                     <option value="<?PHP echo $propiedad['idPropiedad']; ?>"> <?PHP echo $propiedad['nombrePropiedad'];?></option>
                     <?PHP } ?> 
@@ -277,11 +276,10 @@
                 </div>
               </div>
               <div class="col-md-3">
-                <label for="offer-types">&nabla;&nbsp;Operación</label>
+                <label for="offer-types">Operación</label>
                 <div class="select-wrap">
-                  <span class="icon icon-arrow_drop_down"></span>
                   <select name="operacion" id="operacion" class="form-control d-block rounded-0">
-                    <option value="">Todas las operaciones</option>
+                    <option value=""><b>&nabla;</b>&nbsp;Todas las operaciones</option>
                     <?PHP while($operacion=mysqli_fetch_assoc($rtsoperacion)){?>
                     <option value="<?PHP echo $operacion['idOperacion']; ?>"> <?PHP echo $operacion['nombreOperacion'];?></option>
                     <?PHP } ?> 
@@ -289,11 +287,10 @@
                 </div>
               </div>
               <div class="col-md-3">
-                <label for="select-city">&nabla;&nbsp;Localidad</label>
+                <label for="select-city">Localidad</label>
                 <div class="select-wrap">
-                  <span class="icon icon-arrow_drop_down"></span>
                   <select name="localidad" id="localidad" class="form-control d-block rounded-0">
-                    <option value="">Todas las localidades</option>
+                    <option value=""><b>&nabla;</b>&nbsp;Todas las localidades</option>
                     <option value="">Localidad</option>
                     <?PHP while($localidad=mysqli_fetch_assoc($rtslocalidad)){?>
                     <option value="<?PHP echo $localidad['idLocalidad']; ?>"> <?PHP echo $localidad['nombreLocalidad'];?></option>
@@ -479,7 +476,7 @@
                   <li><a href="inmuebles.php">Inmuebles</a></li>
                   <li><a href="servicios.html">Servicios</a></li>
                   <li><a href="contacto.html">Contacto</a></li>
-                  <li><a href="gestion/">Gestion</a></li>
+                  <li><a href="gestion/">Gestión</a></li>
                 </ul>
               </div>
               <div class="col-md-6 col-lg-6">

@@ -89,7 +89,6 @@
               <div class="col-md-3">
                 <label for="list-types">Propiedad</label>
                 <div class="select-wrap">
-                  <span class="icon icon-arrow_drop_down"></span>
                   <select name="propiedad" id="propiedad" class="form-control d-block rounded-0">
                     <option value="">&nabla;&nbsp;Todas las propiedades</option>
                       <?PHP while($propiedad=mysqli_fetch_assoc($rtspropiedad)){?>
@@ -101,7 +100,6 @@
               <div class="col-md-3">
                 <label for="offer-types">Operación</label>
                 <div class="select-wrap">
-                  <span class="icon icon-arrow_drop_down"></span>
                   <select name="operacion" id="operacion" class="form-control d-block rounded-0">
                     <option value="">&nabla;&nbsp;Todas las operaciones</option>
                     <?PHP while($operacion=mysqli_fetch_assoc($rtsoperacion)){?>
@@ -113,7 +111,6 @@
               <div class="col-md-3">
                 <label for="select-city">Localidad</label>
                 <div class="select-wrap">
-                  <span class="icon icon-arrow_drop_down"></span>
                   <select name="localidad" id="localidad" class="form-control d-block rounded-0">
                     <option value="">&nabla;&nbsp;Todas las localidades</option>
                     <option value="">Localidad</option>
@@ -211,7 +208,7 @@
                   <li><a href="index.php">Inicio</a></li>
                   <li><a href="servicios.html">Servicios</a></li>
                   <li><a href="contacto.html">Contacto</a></li>
-                  <li><a href="gestion/">Gestion</a></li>
+                  <li><a href="gestion/">Gestión</a></li>
                 </ul>
               </div>
               <div class="col-md-6 col-lg-6">
