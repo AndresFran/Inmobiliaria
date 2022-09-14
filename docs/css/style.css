@@ -86,6 +86,12 @@ a {
     color: #fff; }
   .btn.btn-outline-primary:hover {
     color: #fff !important; }
+  .btn.btn-whatsapp {
+    background-color: #1BD741;
+    color: #fff; }
+  .btn.btn-outline-whatsapp:hover {
+    background-color: #008C46;
+    color: #fff !important; }
   .btn.btn-black {
     background: #000 !important;
     color: #fff; }

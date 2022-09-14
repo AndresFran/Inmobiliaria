@@ -215,6 +215,8 @@
                   <input type="hidden" id="idInmueble" name="idInmueble" value="<?PHP echo $_REQUEST['idInmueble']; ?>"/>
                   <input type="hidden" id="idUsuario" name="idUsuario" value="<?PHP echo $inmueble['idUsuario']; ?>"/>
                   <input type="submit" class="btn btn-primary" value="Enviar Mensaje">
+                  <hr>
+                  <a target="_blank" class="btn btn-whatsapp" href="https://api.whatsapp.com/send?text=Visita https://www.enlaceinmobiliario.com.ar/detalle-inmueble.php?idInmueble=<?PHP echo $_REQUEST['idInmueble'];?>" ><span class="icon-whatsapp"></span>&nbsp;Compartir en WhatsApp</a>
                 </div>
               </form>
             </div>

@@ -14,11 +14,11 @@
     $img=mysqli_fetch_assoc($rtsimagen);
     $idimg=$img['idImagen'];
     $tpimg=$img['tipoImagen'];
-    $nomimg="../gestion/assets/images/inmuebles/" . str_pad($idimg, 8, "0", STR_PAD_LEFT) . "." . $tpimg;
+    $nomimg="gestion/assets/images/inmuebles/" . str_pad($idimg, 8, "0", STR_PAD_LEFT) . "." . $tpimg;
   
     $listadoImg = "<div class='slide-one-item home-slider owl-carousel'>";       
         if(!file_exists($nomimg)){
-            $nomimg="/gestion/assets/images/inmuebles/00000000.png";
+            $nomimg="gestion/assets/images/inmuebles/00000000.png";
             $listadoImg .= "<div><img src='" . $nomimg . "' alt='Image' class='img-fluid'></div>";
         } else {
             $queryimagenes = "SELECT * FROM imagen WHERE idInmueble = '$_REQUEST[idInmueble]' AND baja != '1' ORDER BY idImagen ASC";

@@ -26,9 +26,9 @@
 		$img=mysqli_fetch_assoc($rtsimagen);
 		$idimg=$img['idImagen'];
         $tpimg=$img['tipoImagen'];
-		$nomimg="/gestion/assets/images/inmuebles/" . str_pad($idimg, 8, "0", STR_PAD_LEFT) . "." . $tpimg;
+		$nomimg="gestion/assets/images/inmuebles/" . str_pad($idimg, 8, "0", STR_PAD_LEFT) . "." . $tpimg;
         
-        if (!file_exists($nomimg)) { $nomimg="/gestion/assets/images/inmuebles/00000000.png"; }
+        if (!file_exists($nomimg)) { $nomimg="gestion/assets/images/inmuebles/00000000.png"; }
         if($inmuebles['habitacionesInmueble']>0){$habitacionesInmueble=$inmuebles['habitacionesInmueble'] . "<sup>+</sup>";}else{$habitacionesInmueble="-";};
         if($inmuebles['banosInmueble']>0){$banosInmueble=$inmuebles['banosInmueble'];}else{$banosInmueble="&nbsp;-&nbsp;";};
         if($inmuebles['superficieCubiertaInmueble']>0){$superficieCubiertaInmueble=$inmuebles['superficieCubiertaInmueble'];}else{$superficieCubiertaInmueble="-";};
