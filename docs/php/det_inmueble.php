@@ -18,13 +18,13 @@
   
     $listadoImg = "<div class='slide-one-item home-slider owl-carousel'>";       
         if(!file_exists($nomimg)){
-            $nomimg="../gestion/assets/images/inmuebles/00000000.png";
+            $nomimg="/gestion/assets/images/inmuebles/00000000.png";
             $listadoImg .= "<div><img src='" . $nomimg . "' alt='Image' class='img-fluid'></div>";
         } else {
             $queryimagenes = "SELECT * FROM imagen WHERE idInmueble = '$_REQUEST[idInmueble]' AND baja != '1' ORDER BY idImagen ASC";
             $rtsimagenes = mysqli_query($conexion, $queryimagenes);
             while($imagenes=mysqli_fetch_assoc($rtsimagenes)){
-            $imagen = "../gestion/assets/images/inmuebles/" . str_pad($imagenes['idImagen'], 8, "0", STR_PAD_LEFT) . "." . $imagenes['tipoImagen'];
+            $imagen = "/gestion/assets/images/inmuebles/" . str_pad($imagenes['idImagen'], 8, "0", STR_PAD_LEFT) . "." . $imagenes['tipoImagen'];
             $listadoImg .= "<div><img src='" . $imagen . "' alt='Image' class='img-fluid'></div>";
             }
         }    
