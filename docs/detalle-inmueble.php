@@ -102,15 +102,16 @@
                   <ul class="property-specs-wrap mb-3 mb-lg-0  float-lg-right">
                   <li>
                     <span class="property-specs">Habitaciones</span>
-                    <span class="property-specs-number"><?PHP echo $habitacionesInmueble; ?></span>
-                    
+                    <span class="property-specs-number"><?PHP echo $habitacionesInmueble; ?></span>                    
                   </li>
                   <li>
                     <span class="property-specs">Baños</span>
-                    <span class="property-specs-number"><?PHP echo $banosInmueble; ?></span>
-                    
+                    <span class="property-specs-number"><?PHP echo $banosInmueble; ?></span>                    
                   </li>
-
+                  <li>
+                    <span class="property-specs">Plantas</span>
+                    <span class="property-specs-number"><?PHP echo $plantasInmueble; ?></span>                    
+                  </li>
                 </ul>
                 </div>
               </div>
@@ -136,12 +137,15 @@
                   <strong class="d-block"><?PHP echo $superficieTotalInmueble; ?></strong>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center border-bottom border-top py-3">
-                  <span class="d-inline-block text-black mb-0 caption-text">Info adicional</span>
-                  <strong class="d-block"><?PHP echo $inmueble['informacionAdicionalInmueble']; ?></strong>
+                  <span class="d-inline-block text-black mb-0 caption-text">Estado</span>
+                  <strong class="d-block"><?PHP echo $inmueble['estadoInmueble']; ?></strong>
                 </div>
               </div>
               <h2 class="h4 text-black">Descripción</h2>
               <p><?PHP echo $inmueble['descripcionInmueble']; ?></p>
+              <h2 class="h4 text-black">Info adicional</h2>
+              <p><?PHP echo $inmueble['informacionAdicionalInmueble']; ?></p>
+              
               <!-- <div class="row no-gutters mt-5">
                 <div class="col-12">
                   <h2 class="h4 text-black mb-3">Galería</h2>
@@ -205,9 +209,7 @@
                 </div>
                 <div class="form-group">
                   <label for="mensaje">Mensaje</label>
-                  <textarea id="comentarioConsulta"  name="comentarioConsulta" class="form-control">
-
-                  
+                  <textarea id="comentarioConsulta"  name="comentarioConsulta" class="form-control">                  
                   </textarea>
 
                 </div>
@@ -221,10 +223,15 @@
               </form>
             </div>
 
-            <!--div class="bg-white widget border rounded">
-              <h3 class="h4 text-black widget-title mb-3">Paragraph</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit qui explicabo, libero nam, saepe eligendi. Molestias maiores illum error rerum. Exercitationem ullam saepe, minus, reiciendis ducimus quis. Illo, quisquam, veritatis.</p>
-            </div-->
+            <div class="bg-white widget border rounded">
+              <h3 class="h4 text-black widget-title mb-3">M&aacute;s detalles</h3>
+              <p><span class="d-inline-block text-black mb-0 caption-text">Cochera: <strong class="d-block"><?PHP echo $cocheraInmueble; ?></strong></span></p>              
+              <p><span class="d-inline-block text-black mb-0 caption-text">Gas Natural: <strong class="d-block"><?PHP echo $gasNaturalInmueble; ?></strong></span></p>
+              <p><span class="d-inline-block text-black mb-0 caption-text">Agua Corriente: <strong class="d-block"><?PHP echo $aguaCorrienteInmueble; ?></strong></span></p>
+              <p><span class="d-inline-block text-black mb-0 caption-text">Cloacas: <strong class="d-block"><?PHP echo $cloacaInmueble; ?></strong></span></p>
+              <p><span class="d-inline-block text-black mb-0 caption-text">Pavimento: <strong class="d-block"><?PHP echo $pavimentoInmueble; ?></strong></span></p>
+              <p><span class="d-inline-block text-black mb-0 caption-text">Mejoras: <strong class="d-block"><?PHP echo $mejorasInmueble; ?></strong></span></p>
+            </div>
           </div>
 
         </div>
@@ -232,7 +239,7 @@
     </div>
 
     <div class="site-section site-section-sm bg-light">
-      <div- class="container">
+      <div class="container">
 
          <div class="row">
             <div class="col-12">
@@ -248,73 +255,72 @@
       </div>
 
       <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="mb-5">
-              <h3 class="footer-heading mb-4">Acerca de Enlace Inmobiliario</h3>
-              <p>Este portal nace con la necesidad imperiosa de ordenar y ejecutar trabajos coordinados entre Profesionales Corredores Inmobiliarios debidamente Matriculados en la Provincia de San Juan.</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="mb-5">
+                <h3 class="footer-heading mb-4">Acerca de Enlace Inmobiliario</h3>
+                <p>Este portal nace con la necesidad imperiosa de ordenar y ejecutar trabajos coordinados entre Profesionales Corredores Inmobiliarios debidamente Matriculados en la Provincia de San Juan.</p>
+              </div>
+
+              
+              
             </div>
-
-            
-            
-          </div>
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <div class="row mb-5">
-              <div class="col-md-12">
-                <h3 class="footer-heading mb-4">Navegación</h3>
-              </div>
-              <div class="col-md-6 col-lg-6">
-                <ul class="list-unstyled">
-                <li><a href="index.php">Inicio</a></li>
-                  <li><a href="inmuebles.php">Inmuebles</a></li>
-                  <li><a href="servicios.html">Servicios</a></li>
-                  <li><a href="contacto.html">Contacto</a></li>
-                  <li><a href="gestion/">Gestión</a></li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-lg-6">
-                <ul class="list-unstyled">
-                  <!-- <li><a href="servicios.html">Servicios</a></li>
-                  <li><a href="contact.html">Contacto</a></li> -->
-                  <li><a href="#">Política de privacidad</a></li>
-                  <li><a href="terminos.html">Términos y Condiciones</a></li>
-                </ul>
-              </div>
-            </div>
-
-
-          </div>
-
-          <!-- <div class="col-lg-4 mb-5 mb-lg-0">
-            <h3 class="footer-heading mb-4">Seguinos</h3>
-
-                <div>
-                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <div class="row mb-5">
+                <div class="col-md-12">
+                  <h3 class="footer-heading mb-4">Navegación</h3>
                 </div>
+                <div class="col-md-6 col-lg-6">
+                  <ul class="list-unstyled">
+                  <li><a href="index.php">Inicio</a></li>
+                    <li><a href="inmuebles.php">Inmuebles</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="gestion/">Gestión</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <ul class="list-unstyled">
+                    <!-- <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contact.html">Contacto</a></li> -->
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="terminos.html">Términos y Condiciones</a></li>
+                  </ul>
+                </div>
+              </div>
 
+
+            </div>
+
+            <!-- <div class="col-lg-4 mb-5 mb-lg-0">
+              <h3 class="footer-heading mb-4">Seguinos</h3>
+
+                  <div>
+                    <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                    <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                    <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                    <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                  </div>
+
+              
+
+            </div> -->
             
-
-          </div> -->
-          
-        </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Enlace Inmobiliario 2022
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
           </div>
-          
+          <div class="row pt-5 mt-5 text-center">
+            <div class="col-md-12">
+              <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Enlace Inmobiliario 2022
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+            
+          </div>
         </div>
-      </div>
-    </footer>
-  
-    </div>
+      </footer>  
+   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
