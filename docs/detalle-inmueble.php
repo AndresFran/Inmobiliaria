@@ -51,7 +51,7 @@
       <div class="container py-1">
         <div class="row align-items-center">
           <div class="col-8 col-md-8 col-lg-4">
-           <a href=""><img src="images/logo.png" width="200" height=""/></a>  
+           <a href="index.php"><img src="images/logo.png" width="200" height=""/></a>  
           </div>
         
           <div class="col-4 col-md-4 col-lg-8">
