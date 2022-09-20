@@ -213,7 +213,7 @@
               </div>
               <div class="col-md-6 col-lg-6">
                 <ul class="list-unstyled">
-                  <li><a href="#">Política de privacidad</a></li>
+                  <!-- <li><a href="#">Política de privacidad</a></li> -->
                   <li><a href="terminos.html">Términos y Condiciones</a></li>
                 </ul>
               </div>

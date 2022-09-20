@@ -284,7 +284,7 @@
                   <ul class="list-unstyled">
                     <!-- <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="contact.html">Contacto</a></li> -->
-                    <li><a href="#">Política de privacidad</a></li>
+                    <!-- <li><a href="#">Política de privacidad</a></li> -->
                     <li><a href="terminos.html">Términos y Condiciones</a></li>
                   </ul>
                 </div>
