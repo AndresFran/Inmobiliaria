@@ -81,6 +81,9 @@ if($inmueble['baja']==1) { header("Location: ./inmuebles.php"); } ?>
 	<div class="post">
 		<h2>Valor: <?PHP echo $valorInmueble; ?></h2>
 	</div>
+	<div class="post">
+		 <?PHP echo $vistaImg; ?>
+	</div>
 	</div>
 	<!--CONTENIDO -->
 	<!--FOOTER -->

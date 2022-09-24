@@ -38,8 +38,8 @@
     $idimg=$img['idImagen'];
     $tpimg=$img['tipoImagen'];
     $nomimg="gestion/assets/images/inmuebles/" . str_pad($idimg, 8, "0", STR_PAD_LEFT) . "." . $tpimg;
-  
-    $listadoImg = "<div class='slide-one-item home-slider owl-carousel'>";       
+    $vistaImg = "";
+    $listadoImg = "<div class='slide-one-item home-slider owl-carousel'>";           
         if(!file_exists($nomimg)){
             $nomimg="gestion/assets/images/inmuebles/00000000.png";
             $listadoImg .= "<div><img src='" . $nomimg . "' alt='Image' class='img-fluid'></div>";
@@ -49,6 +49,7 @@
             while($imagenes=mysqli_fetch_assoc($rtsimagenes)){
             $imagen = "/gestion/assets/images/inmuebles/" . str_pad($imagenes['idImagen'], 8, "0", STR_PAD_LEFT) . "." . $imagenes['tipoImagen'];
             $listadoImg .= "<div><img src='" . $imagen . "' alt='Image' class='img-fluid'></div>";
+            $vistaImg .= "<div><img src='" . $imagen . "' alt='Image' width='950px'></div>";
             }
         }    
     $listadoImg .= "</div>";
@@ -66,6 +67,4 @@
     if(!file_exists($nomimg)){
         $logoCorredor="/gestion/assets/images/usuarios/00000000.png";
     } 
-
-
 ?>
