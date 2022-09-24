@@ -1,9 +1,17 @@
 <?PHP
     include('conexion.php');
-    $queryInmueble = "SELECT * FROM vista_inmuebles WHERE idInmueble = '$_REQUEST[idInmueble]' AND baja != '1'";
+    $queryInmueble = "SELECT * FROM vista_inmuebles WHERE idInmueble = '$_REQUEST[idInmueble]'";
     $rtsInmueble = mysqli_query($conexion, $queryInmueble);
     $inmueble=mysqli_fetch_assoc($rtsInmueble);
  
+    $domicilio = $inmueble['domicilioCalleInmueble'];
+    if(!empty($inmueble['domicilioNumeroInmueble'])){$domicilio .= " " . $inmueble['domicilioNumeroInmueble'];}
+    if(!empty($inmueble['domicilioOrientacionInmueble'])){$domicilio .= " " . $inmueble['domicilioOrientacionInmueble'];}
+
+    if(!empty($inmueble['cocheraInmueble'])){$cocheraInmueble=$inmueble['cocheraInmueble'];}else{$cocheraInmueble="&nbsp;-&nbsp;";}
+    if(!empty($inmueble['tipoCocheraInmueble'])){$cocheraInmueble .="&nbsp;-&nbsp;" . $inmueble['tipoCocheraInmueble'];}
+    if($inmueble['vehiculosCocheraInmueble']>0){$cocheraInmueble .="&nbsp;-&nbsp;Vehiculos: " . $inmueble['vehiculosCocheraInmueble'];}
+
     if($inmueble['plantasInmueble']>0){$plantasInmueble=$inmueble['plantasInmueble'];}else{$plantasInmueble="-";}
     if($inmueble['habitacionesInmueble']>0){$habitacionesInmueble=$inmueble['habitacionesInmueble'] . "<sup>+</sup>";}else{$habitacionesInmueble="-";}
     if($inmueble['antiguedadInmueble']>0){$antiguedadInmueble=$inmueble['antiguedadInmueble'];}else{$antiguedadInmueble="&nbsp;-&nbsp;";}
@@ -13,14 +21,16 @@
     if(!empty($inmueble['pavimentoInmueble'])){$pavimentoInmueble=$inmueble['pavimentoInmueble'];}else{$pavimentoInmueble="&nbsp;-&nbsp;";}
     if(!empty($inmueble['tipoAguaCalienteInmueble'])){$tipoAguaCalienteInmueble=$inmueble['tipoAguaCalienteInmueble'];}else{$tipoAguaCalienteInmueble="&nbsp;-&nbsp;";}
     if(!empty($inmueble['aguaCorrienteInmueble'])){$aguaCorrienteInmueble=$inmueble['aguaCorrienteInmueble'];}else{$aguaCorrienteInmueble="&nbsp;-&nbsp;";}
+    if(!empty($inmueble['estadoInmueble'])){$estadoInmueble=$inmueble['estadoInmueble'];}else{$estadoInmueble="&nbsp;-&nbsp;";}
     if(!empty($inmueble['mejorasInmueble'])){$mejorasInmueble=$inmueble['mejorasInmueble'];}else{$mejorasInmueble="&nbsp;-&nbsp;";}
-    if(!empty($inmueble['cocheraInmueble'])){$cocheraInmueble=$inmueble['cocheraInmueble'];}else{$cocheraInmueble="&nbsp;-&nbsp;";}
+
     if($inmueble['frenteTerrenoInmueble']>0){$frenteTerrenoInmueble=$inmueble['frenteTerrenoInmueble'];}else{$frenteTerrenoInmueble="&nbsp;-&nbsp;";}
     if($inmueble['largoTerrenoInmueble']>0){$largoTerrenoInmueble=$inmueble['largoTerrenoInmueble'];}else{$largoTerrenoInmueble="&nbsp;-&nbsp;";}
     if($inmueble['superficieCubiertaInmueble']>0){$superficieCubiertaInmueble=$inmueble['superficieCubiertaInmueble'];}else{$superficieCubiertaInmueble="-";}
     if($inmueble['superficieTotalInmueble']>0){$superficieTotalInmueble=$inmueble['superficieTotalInmueble'];}else{$superficieTotalInmueble="-";}
-
+        
     if($inmueble['valorInmueble']>0){$valorInmueble=$inmueble['monedaInmueble'] . "</b>&nbsp;". $inmueble['valorInmueble'];}else{$valorInmueble="Consultar";}
+    
 
     $queryimagen="SELECT * FROM imagen WHERE idInmueble = '$_REQUEST[idInmueble]' AND baja != '1' ORDER BY ordenImagen ASC LIMIT 1";
     $rtsimagen = mysqli_query($conexion, $queryimagen);
@@ -42,4 +52,20 @@
             }
         }    
     $listadoImg .= "</div>";
+
+    $queryUsuario = "SELECT * FROM usuario WHERE idUsuario = '$inmueble[idUsuario]'";
+    $rtsUsuario = mysqli_query($conexion, $queryUsuario);
+    $contacto=mysqli_fetch_assoc($rtsUsuario);
+    $corredor=$contacto['nombreUsuario'];
+    $matriculaCorredor=$contacto['matriculaUsuario'];
+    $telefonoCorredor=$contacto['telefonoUsuario'];
+    $emailCorredor=$contacto['emailUsuario'];
+    $domicilioCorredor=$contacto['domicilioUsuario'];
+
+    $logoCorredor="/gestion/assets/images/usuarios/" . $domicilioCorredor=$contacto['logoUsuario'];
+    if(!file_exists($nomimg)){
+        $logoCorredor="/gestion/assets/images/usuarios/00000000.png";
+    } 
+
+
 ?>
