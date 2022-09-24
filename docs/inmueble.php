@@ -28,9 +28,7 @@ if($inmueble['baja']==1) { header("Location: ./inmuebles.php"); } ?>
 	<!--HEADER -->
 <nav>
 <label for="show-menu" class="responsive">&#9776; Menu</label>
-<input type="checkbox" id="show-menu" role="button">
-
-		
+<input type="checkbox" id="show-menu" role="button">		
 		
 </nav>
 	<!-- CONTENIDO -->
