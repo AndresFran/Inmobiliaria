@@ -12,6 +12,9 @@ if($inmueble['baja']==1) { header("Location: ./inmuebles.php"); } ?>
 <link rel="stylesheet" href="css/planilla.css" type="text/css" />
 </head>
 <body>
+<div class="no-imprimir">
+	<a href="javascript:window.print()" class="btn-flotante">Guardar PDF</a>	
+</div>
 <div id="pseudo-wrap1"></div>
 <div id="pseudo-wrap2"></div>
 
