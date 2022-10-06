@@ -209,8 +209,7 @@
                 </div>
                 <div class="form-group">
                   <label for="mensaje">Mensaje</label>
-                  <textarea id="comentarioConsulta"  name="comentarioConsulta" class="form-control">                  
-                  </textarea>
+                  <textarea id="comentarioConsulta"  name="comentarioConsulta" class="form-control"></textarea>
 
                 </div>
                 <div class="form-group">

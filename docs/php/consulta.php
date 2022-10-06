@@ -17,8 +17,8 @@ $fecha = date("Y-m-d H:i:s");
 	'$_REQUEST[idInmueble]',
 	'$_REQUEST[idUsuario]',
 	'$_REQUEST[nombreConsulta]',
-	'$_REQUEST[mailConsulta]',
 	'$_REQUEST[telefonoConsulta]',
+	'$_REQUEST[mailConsulta]',	
 	'$_REQUEST[comentarioConsulta]',
 	'0')";
 	$result = mysqli_query($conexion, $query);
