@@ -1,6 +1,7 @@
 <?PHP
-if(!isset($_REQUEST['idInmueble'])) { header("Location: ./inmuebles.php"); } 
+if(!isset($_REQUEST['id'])) { header("Location: ./inmuebles.php"); } 
 include('php/det_inmueble.php');
+include('php/det_corredor.php');
 if($inmueble['baja']==1) { header("Location: ./inmuebles.php"); } ?>
 <!DOCTYPE html>
 <html lang="es">

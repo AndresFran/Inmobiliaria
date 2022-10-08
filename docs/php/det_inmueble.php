@@ -1,6 +1,7 @@
 <?PHP
     include('conexion.php');
-    $queryInmueble = "SELECT * FROM vista_inmuebles WHERE idInmueble = '$_REQUEST[idInmueble]'";
+    $idInmueble = intval(substr($_REQUEST['id'], 0, 6));
+    $queryInmueble = "SELECT * FROM vista_inmuebles WHERE idInmueble = '$idInmueble'";
     $rtsInmueble = mysqli_query($conexion, $queryInmueble);
     $inmueble=mysqli_fetch_assoc($rtsInmueble);
  
@@ -32,7 +33,7 @@
     if($inmueble['valorInmueble']>0){$valorInmueble=$inmueble['monedaInmueble'] . "</b>&nbsp;". $inmueble['valorInmueble'];}else{$valorInmueble="Consultar";}
     
 
-    $queryimagen="SELECT * FROM imagen WHERE idInmueble = '$_REQUEST[idInmueble]' AND baja != '1' ORDER BY ordenImagen ASC LIMIT 1";
+    $queryimagen="SELECT * FROM imagen WHERE idInmueble = '$idInmueble' AND baja != '1' ORDER BY ordenImagen ASC LIMIT 1";
     $rtsimagen = mysqli_query($conexion, $queryimagen);
     $img=mysqli_fetch_assoc($rtsimagen);
     $idimg=$img['idImagen'];
@@ -44,7 +45,7 @@
             $nomimg="gestion/assets/images/inmuebles/00000000.png";
             $listadoImg .= "<div><img src='" . $nomimg . "' alt='Image' class='img-fluid'></div>";
         } else {
-            $queryimagenes = "SELECT * FROM imagen WHERE idInmueble = '$_REQUEST[idInmueble]' AND baja != '1' ORDER BY ordenImagen ASC";
+            $queryimagenes = "SELECT * FROM imagen WHERE idInmueble = '$idInmueble' AND baja != '1' ORDER BY ordenImagen ASC";
             $rtsimagenes = mysqli_query($conexion, $queryimagenes);
             while($imagenes=mysqli_fetch_assoc($rtsimagenes)){
             $imagen = "/gestion/assets/images/inmuebles/" . str_pad($imagenes['idImagen'], 8, "0", STR_PAD_LEFT) . "." . $imagenes['tipoImagen'];
@@ -54,17 +55,17 @@
         }    
     $listadoImg .= "</div>";
 
-    $queryUsuario = "SELECT * FROM usuario WHERE idUsuario = '$inmueble[idUsuario]'";
-    $rtsUsuario = mysqli_query($conexion, $queryUsuario);
-    $contacto=mysqli_fetch_assoc($rtsUsuario);
-    $corredor=$contacto['nombreUsuario'];
-    $matriculaCorredor=$contacto['matriculaUsuario'];
-    $telefonoCorredor=$contacto['telefonoUsuario'];
-    $emailCorredor=$contacto['emailUsuario'];
-    $domicilioCorredor=$contacto['domicilioUsuario'];
+  //  $queryUsuario = "SELECT * FROM usuario WHERE idUsuario = '$inmueble[idUsuario]'";
+  //  $rtsUsuario = mysqli_query($conexion, $queryUsuario);
+  //  $contacto=mysqli_fetch_assoc($rtsUsuario);
+  //  $corredor=$contacto['nombreUsuario'];
+  //  $matriculaCorredor=$contacto['matriculaUsuario'];
+  //  $telefonoCorredor=$contacto['telefonoUsuario'];
+  //  $emailCorredor=$contacto['emailUsuario'];
+  //  $domicilioCorredor=$contacto['domicilioUsuario'];
 
-    $logoCorredor="/gestion/assets/images/usuarios/" . $domicilioCorredor=$contacto['logoUsuario'];
-    if(!file_exists($nomimg)){
-        $logoCorredor="/gestion/assets/images/usuarios/00000000.png";
-    } 
+  //  $logoCorredor="/gestion/assets/images/usuarios/" . $domicilioCorredor=$contacto['logoUsuario'];
+  //  if(!file_exists($nomimg)){
+  //      $logoCorredor="/gestion/assets/images/usuarios/00000000.png";
+  //  } 
 ?>
