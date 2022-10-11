@@ -4,7 +4,7 @@
     $propiedad = "";
     $operacion = "";
     $localidad = "";
-
+    $limit = "";
     if (isset($_REQUEST['propiedad'])){ if(!empty($_REQUEST['propiedad'])){ $propiedad = " and idPropiedad = '". $_REQUEST['propiedad'] . "'";}}
     if (isset($_REQUEST['operacion'])){ if(!empty($_REQUEST['operacion'])){ $operacion = " and idOperacion = '". $_REQUEST['operacion'] . "'";}}
     if (isset($_REQUEST['localidad'])){ if(!empty($_REQUEST['localidad'])){ $localidad = " and idLocalidad = '". $_REQUEST['localidad'] . "'";}}
@@ -13,7 +13,8 @@
     //echo "Operacion: " . $operacion . "<br>";
     //echo "Localidad: " . $localidad . "<br>";   
     //echo $filtro;
-    $queryinmuebles = "SELECT * FROM vista_inmuebles WHERE baja != '1' $filtro ORDER BY fecha DESC";
+    if(empty($filtro)){ $limit = "LIMIT 9"; }
+    $queryinmuebles = "SELECT * FROM vista_inmuebles WHERE baja != '1' $filtro ORDER BY fecha DESC $limit";
 
     $rtsinmuebles = mysqli_query($conexion, $queryinmuebles);
 
