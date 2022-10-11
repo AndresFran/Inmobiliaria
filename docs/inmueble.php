@@ -22,7 +22,6 @@ if($inmueble['baja']==1) { header("Location: ./inmuebles.php"); } ?>
 <div id="wrap">
 	<!--HEADER -->
 	<div id="header" align="center">
-	<!--img src="/gestion/assets/images/usuarios/000000.png" height="100px" alt=""-->
 	<img src="<?PHP echo $logoCorredor; ?>" height="100px" alt="<?PHP echo $imagen; ?>">	
 	<p style="font-size: x-large"><?PHP echo $corredor; ?></p>
 	<p>Matricula: <?PHP echo $matriculaCorredor; ?></p>

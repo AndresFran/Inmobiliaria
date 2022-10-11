@@ -29,7 +29,7 @@ a:hover {
 
 blockquote {
 font: italic 18px "Times New Roman",serif;
-width: 70%;
+width: 80%;
 margin: 5px auto;
 padding: 10px 50px;
 position: relative;
@@ -89,7 +89,7 @@ top:211px; left:0; right:0;
   background: #374e69;
   background: -moz-linear-gradient(top,  #374e69 0%, #5f7187 50%, #738396 51%, #8795a5 100%);
   background: -webkit-linear-gradient(top,  #374e69 0%,#5f7187 50%,#738396 51%,#8795a5 100%);
-  background: linear-gradient(to bottom,  ##374e69 0%,#5f7187 50%,#738396 51%,#8795a5 100%);
+  background: linear-gradient(to bottom,  #374e69 0%,#5f7187 50%,#738396 51%,#8795a5 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#374e69', endColorstr='#374e69',GradientType=0 );
   color:#fff;
   height:200px;
@@ -284,7 +284,7 @@ ul#menu li a:hover,ul#menu li a.current
 #show-menu {display: none;}
 .responsive { text-align:left; font-weight:bold; font-size:18px; font-style:underline; padding: 0; display:none; margin-left:20px;}
 
-@media screen and (max-width : 700px){
+@media screen and (max-width : 900px){
 
 body { font-size:12px; }
 blockquote { font-size:16px; }
@@ -297,7 +297,7 @@ ul#menu {display:none;}
 #show-menu:checked ~ ul#menu {display: block; position: absolute;  width:50%; margin:1% 0 0 -8%; overflow:visible; z-index:100;}
 ul#menu li { display: block; text-align:left; margin:0 0 0 20%;}
 ul#menu li a { display: block; background-color:#fff;}
-ul#menu li a:hover { background-color:#374e69; color:#fff;}
+ul#menu li a:hover { background-color:#7a8897; color:#fff;}
 ul#menu li a.current, ul#menu li a.active:hover {    background-color:#eee;  color: #000;}
 }
 
@@ -334,7 +334,6 @@ ul#menu li a.current, ul#menu li a.active:hover {    background-color:#eee;  col
 
 /* Cuando el dispositivo de salida sea una impresora */
 @media print {
-
   /* Utilizar una regla parecida a ésta: */
   .no-imprimir {
     display: none;
