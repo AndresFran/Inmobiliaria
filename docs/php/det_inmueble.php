@@ -1,6 +1,7 @@
 <?PHP
     include('conexion.php');
-    $idInmueble = intval(substr($_REQUEST['id'], 0, 6));
+    if (isset($_REQUEST['id'])){$idInmueble = intval(substr($_REQUEST['id'], 0, 6));}else{$idInmueble=$_REQUEST['idInmueble'];}    
+    
     $queryInmueble = "SELECT * FROM vista_inmuebles WHERE idInmueble = '$idInmueble'";
     $rtsInmueble = mysqli_query($conexion, $queryInmueble);
     $inmueble=mysqli_fetch_assoc($rtsInmueble);
