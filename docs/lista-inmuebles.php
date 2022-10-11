@@ -84,7 +84,7 @@
     <div class="site-section site-section-sm pb-0">
       <div class="container">
         <div class="row">
-          <form class="form-search col-md-12" style="margin-top: -100px;" action="lista-inmuebles.php" method="POST" >
+          <form class="form-search col-md-12" style="margin-top: -100px;" action="inmuebles.php" method="POST" >
             <div class="row  align-items-end">
               <div class="col-md-3">
                 <label for="list-types">Propiedad</label>

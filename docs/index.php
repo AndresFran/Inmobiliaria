@@ -68,7 +68,7 @@
                 <li class="active">
                   <a href="index.php">Inicio</a>
                 </li>
-                <li><a href="lista-inmuebles.php">Inmuebles</a></li>
+                <li><a href="inmuebles.php">Inmuebles</a></li>
                 <li><a href="servicios.html">Servicios</a></li> 
                 <li><a href="contacto.html">Contacto</a></li>
               </ul>
@@ -262,7 +262,7 @@
     <div class="site-section site-section-sm pb-0">
       <div class="container">
         <div class="row">
-          <form class="form-search col-md-12" style="margin-top: -100px;" action="lista-inmuebles.php" method="POST" >
+          <form class="form-search col-md-12" style="margin-top: -100px;" action="inmuebles.php" method="POST" >
             <div class="row  align-items-end">
               <div class="col-md-3">
                 <label for="list-types">Propiedad</label>
