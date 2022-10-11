@@ -1,5 +1,6 @@
 <?PHP
     include('php/list_opciones.php');
+    include('php/list_inmuebles.php');
 ?>
 <!DOCTYPE html>
 <html lang="es">
