@@ -11,6 +11,9 @@ if($inmueble['baja']==1) { header("Location: ./inmuebles.php"); } ?>
 <meta name="title" content="Green Zone 2.0 | Template by MLP Design" />
 <meta name="author" content="MLP Design, webmasterneo" />
 <link rel="stylesheet" href="css/planilla.css" type="text/css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
 </head>
 <body>
 <div class="no-imprimir">
@@ -83,8 +86,16 @@ if($inmueble['baja']==1) { header("Location: ./inmuebles.php"); } ?>
 	</ul>
 
 	<div class="post">
+		<p>&nbsp;</p>
 		<h2>Valor: <?PHP echo $valorInmueble; ?></h2>
+		<p>&nbsp;</p>
 	</div>
+	<?PHP if(!empty($ubicacionInmueble)){ ?>    
+		<p>&nbsp;</p>
+		<div class="post">
+			<div id="myMap" name="myMap" style="height: 400px" required></div>
+		</div>
+	<?PHP } ?>
 	<div class="post">
 		 <?PHP echo $vistaImg; ?>
 	</div>
@@ -96,6 +107,29 @@ if($inmueble['baja']==1) { header("Location: ./inmuebles.php"); } ?>
 	</div>
 	<!--FOOTER -->
 </div>
+	<!-- Make sure you put this AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+      integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="">
+  	</script>
+  	<!--script src="assets/js/mapview.js"></script-->
 
+  	<script>
+        const tilesProvider = "	https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+
+        var latlng = "<?= $ubicacionInmueble ?>";
+        console.log("Ubicacion: " + latlng); 
+
+        let coordenadas = latlng.split(',')
+        let myMap = L.map('myMap').setView(coordenadas,15)
+        
+        //let myMap = L.map('myMap').setView([-31.5373, -68.5251], 14)
+
+        L.tileLayer(tilesProvider, {
+        maxZoom: 18,   
+        }).addTo(myMap)
+
+        let marker = L.marker(coordenadas).addTo(myMap)
+  
+    </script>
 </body>
 </html>

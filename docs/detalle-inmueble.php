@@ -31,6 +31,11 @@
     <!--Agrego el ícono de Enlace para probar-->
     <link rel="icon" type="image/png" href="images/icono.png" />
     <!--Agrego el ícono de Enlace para probar-->
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+
   </head>
   <body>
   
@@ -231,6 +236,9 @@
               <p><span class="d-inline-block text-black mb-0 caption-text">Pavimento: <strong class="d-block"><?PHP echo $pavimentoInmueble; ?></strong></span></p>
               <p><span class="d-inline-block text-black mb-0 caption-text">Mejoras: <strong class="d-block"><?PHP echo $mejorasInmueble; ?></strong></span></p>
             </div>
+            <?PHP if(!empty($ubicacionInmueble)){ ?>    
+                <div id="myMap" name="myMap" style="height: 400px" required></div>
+            <?PHP } ?> 
           </div>
 
         </div>
@@ -336,6 +344,31 @@
   <script src="js/circleaudioplayer.js"></script>
 
   <script src="js/main.js"></script>
+
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+      integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="">
+  </script>
+  <!--script src="assets/js/mapview.js"></script-->
+
+  <script>
+        const tilesProvider = "	https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+
+        var latlng = "<?= $ubicacionInmueble ?>";
+        console.log("Ubicacion: " + latlng); 
+
+        let coordenadas = latlng.split(',')
+        let myMap = L.map('myMap').setView(coordenadas,14)
+        
+        //let myMap = L.map('myMap').setView([-31.5373, -68.5251], 14)
+
+        L.tileLayer(tilesProvider, {
+        maxZoom: 18,   
+        }).addTo(myMap)
+
+        let marker = L.marker(coordenadas).addTo(myMap)
+  
+    </script>
     
   </body>
 </html>

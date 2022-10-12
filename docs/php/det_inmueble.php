@@ -7,6 +7,7 @@
     $inmueble=mysqli_fetch_assoc($rtsInmueble);
  
     $domicilio = $inmueble['domicilioCalleInmueble'];
+    $ubicacionInmueble = $inmueble['ubicacionInmueble'];
     if(!empty($inmueble['domicilioNumeroInmueble'])){$domicilio .= " " . $inmueble['domicilioNumeroInmueble'];}
     if(!empty($inmueble['domicilioOrientacionInmueble'])){$domicilio .= " " . $inmueble['domicilioOrientacionInmueble'];}
 
