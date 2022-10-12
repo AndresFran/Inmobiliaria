@@ -355,10 +355,10 @@
         const tilesProvider = "	https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 
         var latlng = "<?= $ubicacionInmueble ?>";
-        console.log("Ubicacion: " + latlng); 
+        //console.log("Ubicacion: " + latlng); 
 
         let coordenadas = latlng.split(',')
-        let myMap = L.map('myMap').setView(coordenadas,14)
+        let myMap = L.map('myMap').setView(coordenadas,15)
         
         //let myMap = L.map('myMap').setView([-31.5373, -68.5251], 14)
 
