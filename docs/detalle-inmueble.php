@@ -238,6 +238,7 @@
             </div>
             <?PHP if(!empty($ubicacionInmueble)){ ?>    
                 <div id="myMap" name="myMap" style="height: 400px" required></div>
+                <a href="https://www.google.com/maps?q=<?PHP echo $ubicacionInmueble; ?>&z=17&hl=es" target="_blank" class="btn btn-info">Ver en el Mapa</a>
             <?PHP } ?> 
           </div>
 
