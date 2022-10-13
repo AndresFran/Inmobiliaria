@@ -14,7 +14,7 @@
     $mensaje .= "Su e-mail es: " . $mail . " \r\n";
     $mensaje .= "Mensaje " . $_POST['message'] . " \r\n";
     $mensaje .= "Enviado el " . date('d/m/Y', time());
-    $para = "soporte@enlaceinmobiliario.com.ar";
+    $para = "contacto@enlaceinmobiliario.com.ar";
 
 
     if(mail($para, $asunto, utf8_decode($mensaje), $header)){
