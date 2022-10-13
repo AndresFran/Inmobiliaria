@@ -65,7 +65,6 @@
   //  $telefonoCorredor=$contacto['telefonoUsuario'];
   //  $emailCorredor=$contacto['emailUsuario'];
   //  $domicilioCorredor=$contacto['domicilioUsuario'];
-
   //  $logoCorredor="/gestion/assets/images/usuarios/" . $domicilioCorredor=$contacto['logoUsuario'];
   //  if(!file_exists($nomimg)){
   //      $logoCorredor="/gestion/assets/images/usuarios/00000000.png";
