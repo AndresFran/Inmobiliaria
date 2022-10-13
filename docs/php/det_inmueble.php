@@ -27,10 +27,10 @@
     if(!empty($inmueble['estadoInmueble'])){$estadoInmueble=$inmueble['estadoInmueble'];}else{$estadoInmueble="&nbsp;-&nbsp;";}
     if(!empty($inmueble['mejorasInmueble'])){$mejorasInmueble=$inmueble['mejorasInmueble'];}else{$mejorasInmueble="&nbsp;-&nbsp;";}
 
-    if($inmueble['frenteTerrenoInmueble']>0){$frenteTerrenoInmueble=$inmueble['frenteTerrenoInmueble'];}else{$frenteTerrenoInmueble="&nbsp;-&nbsp;";}
-    if($inmueble['largoTerrenoInmueble']>0){$largoTerrenoInmueble=$inmueble['largoTerrenoInmueble'];}else{$largoTerrenoInmueble="&nbsp;-&nbsp;";}
-    if($inmueble['superficieCubiertaInmueble']>0){$superficieCubiertaInmueble=$inmueble['superficieCubiertaInmueble'];}else{$superficieCubiertaInmueble="-";}
-    if($inmueble['superficieTotalInmueble']>0){$superficieTotalInmueble=$inmueble['superficieTotalInmueble'];}else{$superficieTotalInmueble="-";}
+    if($inmueble['frenteTerrenoInmueble']>0){$frenteTerrenoInmueble=$inmueble['frenteTerrenoInmueble']. "m2";}else{$frenteTerrenoInmueble="&nbsp;-&nbsp;";}
+    if($inmueble['largoTerrenoInmueble']>0){$largoTerrenoInmueble=$inmueble['largoTerrenoInmueble']. "m2";}else{$largoTerrenoInmueble="&nbsp;-&nbsp;";}
+    if($inmueble['superficieCubiertaInmueble']>0){$superficieCubiertaInmueble=$inmueble['superficieCubiertaInmueble']. "m2";}else{$superficieCubiertaInmueble="-";}
+    if($inmueble['superficieTotalInmueble']>0){$superficieTotalInmueble=$inmueble['superficieTotalInmueble']. $inmueble['tipoSuperficieTotalInmueble'];}else{$superficieTotalInmueble="-";}
         
     if($inmueble['valorInmueble']>0){$valorInmueble=$inmueble['monedaInmueble'] . "</b>&nbsp;". $inmueble['valorInmueble'];}else{$valorInmueble="Consultar";}
     
