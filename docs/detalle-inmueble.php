@@ -193,6 +193,13 @@
                 </div>
               </div> -->
             </div>
+            <?PHP
+                $video="/gestion/assets/videos/" . str_pad($_REQUEST['idInmueble'], 8, "0", STR_PAD_LEFT) . ".mp4"; 
+                if(file_exists($_SERVER['DOCUMENT_ROOT'].$video)){ ?>
+                  <video width="auto"  height="auto" controls poster="vistaprevia.jpg">
+                    <source src="<?PHP echo $video; ?>" type="video/mp4">
+                  </video>
+                <?PHP } ?>
           </div>
           <div class="col-lg-4">
 
@@ -240,13 +247,7 @@
                 <div id="myMap" name="myMap" style="height: 400px" required></div>
                 <a href="https://www.google.com/maps?q=<?PHP echo $ubicacionInmueble; ?>&z=17&hl=es" target="_blank" class="btn btn-info">Ver en el Mapa</a>
             <?PHP } ?>
-            <?PHP
-                $video="/gestion/assets/videos/" . str_pad($_REQUEST['idInmueble'], 8, "0", STR_PAD_LEFT) . ".mp4"; 
-                if(file_exists($_SERVER['DOCUMENT_ROOT'].$video)){ ?>
-                  <video width="auto"  height="auto" controls poster="vistaprevia.jpg">
-                    <source src="<?PHP echo $video; ?>" type="video/mp4">
-                  </video>
-            <?PHP } ?>
+           
           </div>
 
         </div>
