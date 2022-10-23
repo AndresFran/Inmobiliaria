@@ -148,6 +148,7 @@
               </div>
               <h2 class="h4 text-black">Descripción</h2>
               <p><?PHP echo $inmueble['descripcionInmueble']; ?></p>
+              
               <h2 class="h4 text-black">Info adicional</h2>
               <p><?PHP echo $inmueble['informacionAdicionalInmueble']; ?></p>
               
