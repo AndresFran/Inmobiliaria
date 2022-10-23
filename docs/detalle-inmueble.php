@@ -146,11 +146,16 @@
                   <strong class="d-block"><?PHP echo $inmueble['estadoInmueble']; ?></strong>
                 </div>
               </div>
+              
+              <?PHP if($inmueble['descripcionInmueble']){ ?>
               <h2 class="h4 text-black">Descripción</h2>
               <p><?PHP echo $inmueble['descripcionInmueble']; ?></p>
-              
+              <?PHP } ?>
+
+              <?PHP if($inmueble['informacionAdicionalInmueble']){ ?>
               <h2 class="h4 text-black">Info adicional</h2>
               <p><?PHP echo $inmueble['informacionAdicionalInmueble']; ?></p>
+              <?PHP } ?>
               
               <!-- <div class="row no-gutters mt-5">
                 <div class="col-12">
